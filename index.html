@@ -10,53 +10,219 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     background: #0d1117;
     color: #e6edf3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 2rem;
+    padding: 2.5rem 1.25rem;
+    max-width: 720px;
+    margin: 0 auto;
+    line-height: 1.6;
   }
-  .container { max-width: 540px; text-align: center; }
-  h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-  .sub { color: #8b949e; margin-bottom: 2rem; }
-  pre {
+  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+  .sub {
+    color: #8b949e;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 1.25rem;
+  }
+  .setup {
     background: #161b22;
     border: 1px solid #30363d;
     border-radius: 8px;
-    padding: 1.25rem;
-    text-align: left;
-    font-size: 0.85rem;
-    line-height: 1.6;
-    overflow-x: auto;
-    color: #8b949e;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 2rem;
   }
-  pre .kw { color: #ff7b72; }
-  pre .str { color: #a5d6ff; }
-  pre .cmt { color: #484f58; }
-  .note {
-    margin-top: 1.5rem;
-    font-size: 0.8rem;
+  .setup pre {
+    font-size: 0.82rem;
+    color: #8b949e;
+    line-height: 1.55;
+    overflow-x: auto;
+    white-space: pre;
+    font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+  }
+  .kw { color: #ff7b72; }
+  .str { color: #a5d6ff; }
+  .cmt { color: #484f58; }
+  h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: #58a6ff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .count {
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: rgba(88, 166, 255, 0.15);
+    color: #58a6ff;
+    padding: 0.1em 0.55em;
+    border-radius: 999px;
+  }
+  .artifact {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 1rem 1.15rem;
+    margin-bottom: 0.6rem;
+    transition: border-color 0.15s;
+  }
+  .artifact:hover { border-color: #484f58; }
+  .artifact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .artifact-name {
+    font-weight: 600;
+    font-size: 0.88rem;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+  }
+  .badge {
+    display: inline-block;
+    padding: 0.1em 0.55em;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .badge-aar { background: rgba(63, 185, 80, 0.15); color: #3fb950; }
+  .badge-jar { background: rgba(210, 168, 255, 0.15); color: #d2a8ff; }
+  .gradle {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.78rem;
+    color: #8b949e;
+    background: #0d1117;
+    padding: 0.4rem 0.65rem;
+    border-radius: 5px;
+    margin-top: 0.45rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.15s;
+    position: relative;
+  }
+  .gradle:hover { border-color: #30363d; }
+  .gradle .copy-hint {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.65rem;
     color: #484f58;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .gradle:hover .copy-hint { opacity: 1; }
+  .gradle.copied .copy-hint { color: #3fb950; }
+  .versions {
+    font-size: 0.75rem;
+    color: #484f58;
+    margin-top: 0.35rem;
+  }
+  .versions span { color: #6e7681; }
+  .loading, .error-msg, .empty {
+    color: #484f58;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .error-msg { color: #f85149; }
+  .footer {
+    margin-top: 2rem;
+    font-size: 0.78rem;
+    color: #484f58;
+    text-align: center;
   }
   a { color: #58a6ff; text-decoration: none; }
   a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
-<div class="container">
-  <h1>DexKot Maven Repository</h1>
-  <p class="sub">Public Maven repository for DexKot libraries</p>
-  <pre><span class="cmt">// settings.gradle.kts</span>
+
+<h1>DexKot Maven Repository</h1>
+<p class="sub">Public Maven repository for DexKot libraries</p>
+
+<div class="setup">
+<pre><span class="cmt">// settings.gradle.kts</span>
 <span class="kw">dependencyResolutionManagement</span> {
     <span class="kw">repositories</span> {
         google()
         mavenCentral()
-        maven {
-            url = uri(<span class="str">"https://dexkot.github.io/maven"</span>)
-        }
+        maven { url = uri(<span class="str">"https://dexkot.github.io/maven"</span>) }
     }
 }</pre>
-  <p class="note">Powered by <a href="https://github.com/dexkot">GitHub Pages</a></p>
 </div>
+
+<h2>Artifacts <span class="count" id="artifact-count"></span></h2>
+<div id="artifacts">
+  <p class="loading">Loading artifacts...</p>
+</div>
+
+<p class="footer">Powered by <a href="https://github.com/DexKot">GitHub Pages</a></p>
+
+<script>
+(async () => {
+  const container = document.getElementById('artifacts');
+  const countEl = document.getElementById('artifact-count');
+
+  try {
+    const res = await fetch('./artifacts.json');
+    if (!res.ok) throw new Error(res.status);
+    const artifacts = await res.json();
+
+    if (!artifacts.length) {
+      container.innerHTML = '<p class="empty">No artifacts published yet.</p>';
+      countEl.textContent = '0';
+      return;
+    }
+
+    countEl.textContent = artifacts.length;
+    container.innerHTML = '';
+
+    artifacts.forEach(a => {
+      const dep = `implementation("${a.groupId}:${a.artifactId}:${a.latest}")`;
+      const previous = a.versions.slice(1);
+
+      const card = document.createElement('div');
+      card.className = 'artifact';
+      card.innerHTML = `
+        <div class="artifact-header">
+          <span class="artifact-name">${a.groupId}:${a.artifactId}</span>
+          <span class="badge badge-${a.type}">${a.type}</span>
+        </div>
+        <div class="gradle" title="Click to copy">
+          ${dep}
+          <span class="copy-hint">click to copy</span>
+        </div>
+        ${previous.length ? `<div class="versions">Previous: <span>${previous.join(', ')}</span></div>` : ''}
+      `;
+
+      const gradleEl = card.querySelector('.gradle');
+      gradleEl.addEventListener('click', () => {
+        navigator.clipboard.writeText(dep).then(() => {
+          gradleEl.classList.add('copied');
+          gradleEl.querySelector('.copy-hint').textContent = 'copied!';
+          setTimeout(() => {
+            gradleEl.classList.remove('copied');
+            gradleEl.querySelector('.copy-hint').textContent = 'click to copy';
+          }, 1500);
+        });
+      });
+
+      container.appendChild(card);
+    });
+  } catch (e) {
+    if (e.message === '404') {
+      container.innerHTML = '<p class="empty">No artifacts published yet.</p>';
+      countEl.textContent = '0';
+    } else {
+      container.innerHTML = `<p class="error-msg">Failed to load artifacts: ${e.message}</p>`;
+    }
+  }
+})();
+</script>
 </body>
 </html>
