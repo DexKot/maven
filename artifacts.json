@@ -1,0 +1,7 @@
+[
+{"groupId":"com.dexkot.mobile","artifactId":"core-annotation","latest":"0.1.0","versions":["0.1.0"],"type":"aar"}
+,
+{"groupId":"com.dexkot.mobile","artifactId":"core-foundation","latest":"0.1.0","versions":["0.1.0"],"type":"aar"}
+,
+{"groupId":"com.dexkot.mobile","artifactId":"core-ksp-processor","latest":"0.1.0","versions":["0.1.0"],"type":"jar"}
+]
