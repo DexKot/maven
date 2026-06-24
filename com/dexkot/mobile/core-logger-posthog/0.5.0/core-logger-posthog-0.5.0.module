@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.dexkot.mobile",
+    "module": "core-logger-posthog",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-posthog-0.5.0.aar",
+          "url": "core-logger-posthog-0.5.0.aar",
+          "size": 6927,
+          "sha512": "bd74024686e6196f32ccfeca079118516ab441cc66dfc87d16ea64e1241207be2c1cac96612687554a278c38ca645d2e0ac42e04282b2cc72f5e5a1de3109890",
+          "sha256": "f08fe831ce416c21be12bc0a23f0e0e3dba4eb1bc7bf7ee47d64d53bc344044f",
+          "sha1": "2749e6220673a2e5c6e7cec47fbc96bb8494659b",
+          "md5": "5b218ae613ba744bf2838d87bdad29bc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.posthog",
+          "module": "posthog-android",
+          "version": {
+            "requires": "3.47.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-posthog-0.5.0.aar",
+          "url": "core-logger-posthog-0.5.0.aar",
+          "size": 6927,
+          "sha512": "bd74024686e6196f32ccfeca079118516ab441cc66dfc87d16ea64e1241207be2c1cac96612687554a278c38ca645d2e0ac42e04282b2cc72f5e5a1de3109890",
+          "sha256": "f08fe831ce416c21be12bc0a23f0e0e3dba4eb1bc7bf7ee47d64d53bc344044f",
+          "sha1": "2749e6220673a2e5c6e7cec47fbc96bb8494659b",
+          "md5": "5b218ae613ba744bf2838d87bdad29bc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-logger-posthog-0.5.0-sources.jar",
+          "url": "core-logger-posthog-0.5.0-sources.jar",
+          "size": 2081,
+          "sha512": "0800802cd84076a58f8257c20e6c049379e04aeda8e7b9a187e58e2ea596165c6d1ae7c5210210528a368c503d9758b97861f7e7050c7f62c3e4d1e969bf4186",
+          "sha256": "b59f578005c7007fc10dc37e20e88baf302d2c7897f6ee7b8a7c91969425a046",
+          "sha1": "c038aa8bdf12520652f61e2593e10c52bfe343f5",
+          "md5": "2b2b4b899597d36990e4eec46c24168d"
+        }
+      ]
+    }
+  ]
+}
