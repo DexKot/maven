@@ -89,6 +89,7 @@
   }
   .badge-aar { background: rgba(63, 185, 80, 0.15); color: #3fb950; }
   .badge-jar { background: rgba(210, 168, 255, 0.15); color: #d2a8ff; }
+  .badge-kmp { background: rgba(88, 166, 255, 0.15); color: #58a6ff; }
   .gradle {
     font-family: 'SF Mono', 'Fira Code', monospace;
     font-size: 0.78rem;
@@ -117,6 +118,20 @@
   }
   .gradle:hover .copy-hint { opacity: 1; }
   .gradle.copied .copy-hint { color: #3fb950; }
+  .targets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.45rem;
+  }
+  .target-badge {
+    font-size: 0.68rem;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    color: #484f58;
+    background: rgba(110, 118, 129, 0.1);
+    padding: 0.1em 0.5em;
+    border-radius: 4px;
+  }
   .versions {
     font-size: 0.75rem;
     color: #484f58;
@@ -164,6 +179,49 @@
 <p class="footer">Powered by <a href="https://github.com/DexKot">GitHub Pages</a></p>
 
 <script>
+const TARGET_SUFFIXES = ['-android', '-jvm', '-iosarm64', '-iossimulatorarm64', '-iosx64', '-js', '-wasm'];
+
+function classifyArtifacts(artifacts) {
+  const parentIds = new Set();
+  const targetMap = {};
+
+  // First pass: find which artifacts are targets of a parent
+  artifacts.forEach(a => {
+    for (const suffix of TARGET_SUFFIXES) {
+      if (a.artifactId.endsWith(suffix)) {
+        const parentId = a.artifactId.slice(0, -suffix.length);
+        const targetName = suffix.slice(1); // remove leading dash
+        if (!targetMap[parentId]) targetMap[parentId] = [];
+        targetMap[parentId].push(targetName);
+        parentIds.add(a.artifactId); // mark as consumed
+        break;
+      }
+    }
+  });
+
+  // Second pass: build display list
+  return artifacts
+    .filter(a => !parentIds.has(a.artifactId))
+    .map(a => ({
+      ...a,
+      targets: targetMap[a.artifactId] || [],
+      isKmp: (targetMap[a.artifactId] || []).length > 0
+    }));
+}
+
+function targetLabel(t) {
+  const labels = {
+    android: 'Android',
+    jvm: 'JVM',
+    iosarm64: 'iOS arm64',
+    iossimulatorarm64: 'iOS Simulator',
+    iosx64: 'iOS x64',
+    js: 'JS',
+    wasm: 'Wasm'
+  };
+  return labels[t] || t;
+}
+
 (async () => {
   const container = document.getElementById('artifacts');
   const countEl = document.getElementById('artifact-count');
@@ -171,7 +229,8 @@
   try {
     const res = await fetch('./artifacts.json');
     if (!res.ok) throw new Error(res.status);
-    const artifacts = await res.json();
+    const raw = await res.json();
+    const artifacts = classifyArtifacts(raw);
 
     if (!artifacts.length) {
       container.innerHTML = '<p class="empty">No artifacts published yet.</p>';
@@ -185,18 +244,29 @@
     artifacts.forEach(a => {
       const dep = `implementation("${a.groupId}:${a.artifactId}:${a.latest}")`;
       const previous = a.versions.slice(1);
+      const badgeClass = a.isKmp ? 'kmp' : a.type;
+      const badgeText = a.isKmp ? 'kmp' : a.type;
 
       const card = document.createElement('div');
       card.className = 'artifact';
+
+      let targetsHtml = '';
+      if (a.targets.length) {
+        targetsHtml = `<div class="targets">${a.targets.map(t =>
+          `<span class="target-badge">${targetLabel(t)}</span>`
+        ).join('')}</div>`;
+      }
+
       card.innerHTML = `
         <div class="artifact-header">
           <span class="artifact-name">${a.groupId}:${a.artifactId}</span>
-          <span class="badge badge-${a.type}">${a.type}</span>
+          <span class="badge badge-${badgeClass}">${badgeText}</span>
         </div>
         <div class="gradle" title="Click to copy">
           ${dep}
           <span class="copy-hint">click to copy</span>
         </div>
+        ${targetsHtml}
         ${previous.length ? `<div class="versions">Previous: <span>${previous.join(', ')}</span></div>` : ''}
       `;
 
