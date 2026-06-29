@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-ksp-processor",
+    "version": "0.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ksp-processor-0.11.0.jar",
+          "url": "core-ksp-processor-0.11.0.jar",
+          "size": 33243,
+          "sha512": "ee02ac82f5a93a56a332e391e7890a8f0d456a6263832c99ebfd5ca4b9333625e9e7df0f035c3af173ce98b5107fad8a651f78303663d596b072370d081b7d97",
+          "sha256": "9014f03b6284f7cb09b7c89ac519bda80e1ccbfd5fad6f33624f9b607ce50020",
+          "sha1": "dcfa335255f905e52cb705c538aa303da5e5ac43",
+          "md5": "3216528639cdf7f25b65ddfe6886d9c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "2.2.0-2.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ksp-processor-0.11.0.jar",
+          "url": "core-ksp-processor-0.11.0.jar",
+          "size": 33243,
+          "sha512": "ee02ac82f5a93a56a332e391e7890a8f0d456a6263832c99ebfd5ca4b9333625e9e7df0f035c3af173ce98b5107fad8a651f78303663d596b072370d081b7d97",
+          "sha256": "9014f03b6284f7cb09b7c89ac519bda80e1ccbfd5fad6f33624f9b607ce50020",
+          "sha1": "dcfa335255f905e52cb705c538aa303da5e5ac43",
+          "md5": "3216528639cdf7f25b65ddfe6886d9c1"
+        }
+      ]
+    }
+  ]
+}

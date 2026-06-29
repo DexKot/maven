@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-annotation",
+    "version": "0.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-annotation-0.11.0.aar",
+          "url": "core-annotation-0.11.0.aar",
+          "size": 3983,
+          "sha512": "78476ffb4b0ccf951c83c7075075aef4bf9f800bbf8d2268f4096641ef02c1bac3981cd3190c8ad61bf284f2dd0a6b61bf23878e7202c85c2b0cfe121203c6e3",
+          "sha256": "84398692ff5faed9645e9744096a970e1fc2e5ff2b6fd3b1b44fed6bcd634572",
+          "sha1": "6799d63c5485ac92adfed0591a4b7958b9a40fcd",
+          "md5": "346285714c062f5a67aaf408518a9b1c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-annotation-0.11.0.aar",
+          "url": "core-annotation-0.11.0.aar",
+          "size": 3983,
+          "sha512": "78476ffb4b0ccf951c83c7075075aef4bf9f800bbf8d2268f4096641ef02c1bac3981cd3190c8ad61bf284f2dd0a6b61bf23878e7202c85c2b0cfe121203c6e3",
+          "sha256": "84398692ff5faed9645e9744096a970e1fc2e5ff2b6fd3b1b44fed6bcd634572",
+          "sha1": "6799d63c5485ac92adfed0591a4b7958b9a40fcd",
+          "md5": "346285714c062f5a67aaf408518a9b1c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-annotation-0.11.0-sources.jar",
+          "url": "core-annotation-0.11.0-sources.jar",
+          "size": 3101,
+          "sha512": "78bfcbcb66af7a4a71b1a8c2928ff78674788c9a4668fcbe0ab1411fe4978f32b9d08b2b488fb7d39b9645bcab449c1b1d060eb0d1cea0d9330efe59f04dfe1f",
+          "sha256": "d71bd288c195b661628881dfb2c30daca2ca03f9ecc40155ea082733a9abc0dd",
+          "sha1": "f322ce1bdddd83d81a9dce4266245f1e05c02ccb",
+          "md5": "c2f13a9bdc27a2633b6737c298cc557c"
+        }
+      ]
+    }
+  ]
+}

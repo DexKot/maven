@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-sqldelight",
+    "version": "0.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-sqldelight-0.11.0.aar",
+          "url": "core-sqldelight-0.11.0.aar",
+          "size": 28029,
+          "sha512": "28ebca91f4d06e9fd7fb223619af2f6e360876a6e75e281f389f057824208179773724c39dfab7d888797f1e5a804476c605ecf0b74d822d0e29b64838c3e18e",
+          "sha256": "345f71d8d849cbe62d959fea15dac8af8e5529de7b211e04e6d95bd3a250bd4b",
+          "sha1": "96f70e36c1528e58d242d7a96a4dda13b316d696",
+          "md5": "ca2ebc25418f13523dcca93e2101e4eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-sqldelight-0.11.0.aar",
+          "url": "core-sqldelight-0.11.0.aar",
+          "size": 28029,
+          "sha512": "28ebca91f4d06e9fd7fb223619af2f6e360876a6e75e281f389f057824208179773724c39dfab7d888797f1e5a804476c605ecf0b74d822d0e29b64838c3e18e",
+          "sha256": "345f71d8d849cbe62d959fea15dac8af8e5529de7b211e04e6d95bd3a250bd4b",
+          "sha1": "96f70e36c1528e58d242d7a96a4dda13b316d696",
+          "md5": "ca2ebc25418f13523dcca93e2101e4eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-sqldelight-0.11.0-sources.jar",
+          "url": "core-sqldelight-0.11.0-sources.jar",
+          "size": 4490,
+          "sha512": "4bfcf47228bd69fbbd618439c638890000f8c457f7fdecfb64650725870fc37b8397d61abb08088106561fadaef2e63bc2f41684dcd157a4612b96a3f19f8b26",
+          "sha256": "bb4bc5f0fe736dc1a39660ece3ae7e7823c73457c834470e73e3e83ab86fa0e0",
+          "sha1": "f8e2b5b147c33e4234e3c8105982669f2d6884c0",
+          "md5": "d2d8cf562e233994936019a2db025e15"
+        }
+      ]
+    }
+  ]
+}
