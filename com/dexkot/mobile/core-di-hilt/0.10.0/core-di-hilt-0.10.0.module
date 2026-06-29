@@ -1,0 +1,272 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.dexkot.mobile",
+    "module": "core-di-hilt",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-logger-firebase",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-logger-posthog",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-permission",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-remoteconfig-firebase",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-remoteconfig-posthog",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-di-hilt-0.10.0.aar",
+          "url": "core-di-hilt-0.10.0.aar",
+          "size": 36182,
+          "sha512": "cb4b95a1961803b76003fed0bda5ac545e351e1d00747a16423680ae9e525d2abde3b767a750ab0b5087d9d1fd25c9fbc7d0b6e38cc20bce15e3e6e7934e1e94",
+          "sha256": "5b2ea890f4f021150628430da74683f8ee672b7125323ea3c28e6f55c8d86091",
+          "sha1": "039fc8e5a1cdb2a8a4c5232a2ad04a86e37936c4",
+          "md5": "9ccf3daaad0cba347b7d559420bde195"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.56.2"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-crashlytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "com.posthog",
+          "module": "posthog-android",
+          "version": {
+            "requires": "3.47.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-logger-firebase",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-logger-posthog",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-permission",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-remoteconfig-firebase",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-remoteconfig-posthog",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.dexkot.mobile",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-di-hilt-0.10.0.aar",
+          "url": "core-di-hilt-0.10.0.aar",
+          "size": 36182,
+          "sha512": "cb4b95a1961803b76003fed0bda5ac545e351e1d00747a16423680ae9e525d2abde3b767a750ab0b5087d9d1fd25c9fbc7d0b6e38cc20bce15e3e6e7934e1e94",
+          "sha256": "5b2ea890f4f021150628430da74683f8ee672b7125323ea3c28e6f55c8d86091",
+          "sha1": "039fc8e5a1cdb2a8a4c5232a2ad04a86e37936c4",
+          "md5": "9ccf3daaad0cba347b7d559420bde195"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-di-hilt-0.10.0-sources.jar",
+          "url": "core-di-hilt-0.10.0-sources.jar",
+          "size": 24457,
+          "sha512": "2deda4814fa0bff7c5de5ad9ae4055d7fa5ddf662bf8cca693a4f61ac5eb6121f062b2bac3da6a45f1ac342f275a9f29e1db6a653ceb9c8a1c13343569bd9061",
+          "sha256": "277218f8329ca2f58f033245f94aca70fc38fa196c97f9f3ed4097ebf59030c3",
+          "sha1": "190fec6b902fc3d49eb50d7d739b08627800b4cf",
+          "md5": "be6adef8853f7c778fa7be2a68c96c23"
+        }
+      ]
+    }
+  ]
+}
