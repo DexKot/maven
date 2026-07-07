@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-database-sqldelight",
+    "version": "0.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-database",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-sqldelight-0.13.0.aar",
+          "url": "core-database-sqldelight-0.13.0.aar",
+          "size": 28229,
+          "sha512": "c6d52ca894730bc4c3f472dc1d268090aad7884a22940a6b2f5f7a34b053ed7cbe4fd1506ad172bc0659ef41e62d76bbddb5570b331b1501d823738825e63e36",
+          "sha256": "5b25bd53fc41a72fb1d69fbc99a8eff0d7849815e5b0317bbcc89d63ea996671",
+          "sha1": "052ebca49fa106989ff40917f3cf5746e9baa8cb",
+          "md5": "ce98c1054f373ef16f1a3419d92624e7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-database",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-sqldelight-0.13.0.aar",
+          "url": "core-database-sqldelight-0.13.0.aar",
+          "size": 28229,
+          "sha512": "c6d52ca894730bc4c3f472dc1d268090aad7884a22940a6b2f5f7a34b053ed7cbe4fd1506ad172bc0659ef41e62d76bbddb5570b331b1501d823738825e63e36",
+          "sha256": "5b25bd53fc41a72fb1d69fbc99a8eff0d7849815e5b0317bbcc89d63ea996671",
+          "sha1": "052ebca49fa106989ff40917f3cf5746e9baa8cb",
+          "md5": "ce98c1054f373ef16f1a3419d92624e7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-database-sqldelight-0.13.0-sources.jar",
+          "url": "core-database-sqldelight-0.13.0-sources.jar",
+          "size": 4811,
+          "sha512": "3232ec4efb0c9427b4df744ffc898c0cf2a3609f223f8d20e9a1c453649750d372eff6629614abaceeec47fc6ee089eb37bd2d2f97f5c3876e4d11cbbdeeb69b",
+          "sha256": "3ac829ef2989f1983679d2cbb959cf227f2089f1acf6568895d0e9aeb05efc8c",
+          "sha1": "7e7ccfdf0889422611e87f1b3b8fea6b719b168e",
+          "md5": "e171d0bebc64467ecb35e113e6b5733e"
+        }
+      ]
+    }
+  ]
+}

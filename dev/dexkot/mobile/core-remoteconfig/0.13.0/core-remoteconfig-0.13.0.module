@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig",
+    "version": "0.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-0.13.0.aar",
+          "url": "core-remoteconfig-0.13.0.aar",
+          "size": 25622,
+          "sha512": "988b0c462963c79b61b2317879d9a250a9c27a4c1ba34f061fc919f9675b81a29375ece410a16b8a4fb681e3a1fa08d2ca178a541b13d4e73a540881407341f3",
+          "sha256": "d4a4b918a6a6bc3fe07ca56e6c999023ba82ad4b359cab98d9aa27e54d2b31b1",
+          "sha1": "f19c09f34942817dc66eb3ac893a0a65c549b219",
+          "md5": "fcd9b8de3694c0f45d0b8ac0661865ad"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-0.13.0.aar",
+          "url": "core-remoteconfig-0.13.0.aar",
+          "size": 25622,
+          "sha512": "988b0c462963c79b61b2317879d9a250a9c27a4c1ba34f061fc919f9675b81a29375ece410a16b8a4fb681e3a1fa08d2ca178a541b13d4e73a540881407341f3",
+          "sha256": "d4a4b918a6a6bc3fe07ca56e6c999023ba82ad4b359cab98d9aa27e54d2b31b1",
+          "sha1": "f19c09f34942817dc66eb3ac893a0a65c549b219",
+          "md5": "fcd9b8de3694c0f45d0b8ac0661865ad"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-0.13.0-sources.jar",
+          "url": "core-remoteconfig-0.13.0-sources.jar",
+          "size": 4525,
+          "sha512": "44ed7ad7a269bbbbf7d79e1b8e3fb4c486b94c931d7526031de555290c1b0acd541bfbb1f39c96ccd6bae1910b6d8d6f87f4ea129269ab91c4e66e040f72e6f4",
+          "sha256": "fd16eef8d32e9fa7f978cfab45e31b7d60deacdbe7bf496b982681995515bde2",
+          "sha1": "b0020d76b03f4908e50c755d0e6a3e7199456cd6",
+          "md5": "8a16f774a31cd112bfaa59da02589130"
+        }
+      ]
+    }
+  ]
+}
