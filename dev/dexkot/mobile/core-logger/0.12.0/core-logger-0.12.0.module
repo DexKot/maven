@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-0.12.0.aar",
+          "url": "core-logger-0.12.0.aar",
+          "size": 55121,
+          "sha512": "c0127b59ff78d5094edd05ef51f5fd7553ebea324d7599b652edf54c0f201ba50f2b1fdedc05e85a052ad380405b5702e47f647ef87511f1bd9e17e190cae4fd",
+          "sha256": "c44969300f63d0d3231fe6c6f4808ddc8257631cc28a7f477ad60d4d93f52d6b",
+          "sha1": "a351d439a686d6429903aee334ef94a507a66fb8",
+          "md5": "17ae059cec0b38b8e23fcfc04984f32c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-0.12.0.aar",
+          "url": "core-logger-0.12.0.aar",
+          "size": 55121,
+          "sha512": "c0127b59ff78d5094edd05ef51f5fd7553ebea324d7599b652edf54c0f201ba50f2b1fdedc05e85a052ad380405b5702e47f647ef87511f1bd9e17e190cae4fd",
+          "sha256": "c44969300f63d0d3231fe6c6f4808ddc8257631cc28a7f477ad60d4d93f52d6b",
+          "sha1": "a351d439a686d6429903aee334ef94a507a66fb8",
+          "md5": "17ae059cec0b38b8e23fcfc04984f32c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-logger-0.12.0-sources.jar",
+          "url": "core-logger-0.12.0-sources.jar",
+          "size": 18913,
+          "sha512": "9fc352a45ec9c2a4532005157bc9ff91c450691e0014ecf6ab64a450156e212ca289418dc46f189f45d52829df0e50e4deb71dc1b9f56c4b05f73cff21e2cc45",
+          "sha256": "2ee22b65f9abe51a4cc445546616573a9e6b8a003a346d7234cdc15ecccf0377",
+          "sha1": "00419814c41072b053c79392eb6808bb7a2b260f",
+          "md5": "3d8ace4e49921e97bc21e11a75425a23"
+        }
+      ]
+    }
+  ]
+}

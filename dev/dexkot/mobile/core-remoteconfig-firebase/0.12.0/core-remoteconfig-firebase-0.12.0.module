@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig-firebase",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-0.12.0.aar",
+          "url": "core-remoteconfig-firebase-0.12.0.aar",
+          "size": 11414,
+          "sha512": "553557e26cb8ef149ecd994fe6dc1cffcaa0d6ee1b31c3eb039df4541fc7660950380aa279d398e8c5dd43052203b8e5300e43abdaf7958cd75660d68e0e834e",
+          "sha256": "49c94a1646602d8b26fe3e2ba37cf3b34606b396c7b909bc79a534fa48eb456c",
+          "sha1": "42d6e2abf248d983472e2eaa7a681c49df655bf2",
+          "md5": "5fda96b4e0bdecef89dc053a45bb99eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-play-services",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-0.12.0.aar",
+          "url": "core-remoteconfig-firebase-0.12.0.aar",
+          "size": 11414,
+          "sha512": "553557e26cb8ef149ecd994fe6dc1cffcaa0d6ee1b31c3eb039df4541fc7660950380aa279d398e8c5dd43052203b8e5300e43abdaf7958cd75660d68e0e834e",
+          "sha256": "49c94a1646602d8b26fe3e2ba37cf3b34606b396c7b909bc79a534fa48eb456c",
+          "sha1": "42d6e2abf248d983472e2eaa7a681c49df655bf2",
+          "md5": "5fda96b4e0bdecef89dc053a45bb99eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-0.12.0-sources.jar",
+          "url": "core-remoteconfig-firebase-0.12.0-sources.jar",
+          "size": 3087,
+          "sha512": "931e1f8b8388e676e8774333714b43ee928691390b9dcd81701f2a1ed1f21a22bb76602b3003898112b3530c66c27fba518a01ae98aeb85c369855575a494d94",
+          "sha256": "3805e629a99dc4be104beb81332c502716443435762e2a5744bee18824b93bff",
+          "sha1": "346f2115bca98a4840ff33ab08722d6b56409f19",
+          "md5": "bbd47be458617ca7fc115a96bfbdb75b"
+        }
+      ]
+    }
+  ]
+}

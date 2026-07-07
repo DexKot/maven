@@ -1,0 +1,287 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-work",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "work-metadata-0.12.0.jar",
+          "url": "core-work-0.12.0.jar",
+          "size": 16623,
+          "sha512": "140097ee4c3f4ce86abae8aa05894a4d10d5150835199fcf33b628e7b4cc834a71387a5bfc3bf4cc1ba53ba7a7e9a3c25cc35c8effecd25adb5ec73f9ff02ef9",
+          "sha256": "37144ee3a2406fbce0d279630ae0c59a0eecd3433e71179466fd60d15220de70",
+          "sha1": "99928095df3f52af46e245030ee484fedd074c57",
+          "md5": "f326485a0f529025bfb7da30e4bca09b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "work-kotlin-0.12.0-sources.jar",
+          "url": "core-work-0.12.0-sources.jar",
+          "size": 18379,
+          "sha512": "f438479590bc5a11ffdcf50c18f23c34ff7a28935c7798a658457126f61d2b55d92f14da76e940a3500348fd93bdc5e6a013d0701ec2de522732e49ac540b83d",
+          "sha256": "932a4cab5b9ddd5ff0775914d6cefbcf1dbf8268296c9f17d42e6107445a113c",
+          "sha1": "97ddcec8aad1e37b0a7c016a5ed5bfef568b0668",
+          "md5": "c2fd9e5958ae69327e96ce334706665a"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-work-android/0.12.0/core-work-android-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-android",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-work-android/0.12.0/core-work-android-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-android",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-work-android/0.12.0/core-work-android-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-android",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../work-iosarm64/0.12.0/work-iosarm64-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "work-iosarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../work-iosarm64/0.12.0/work-iosarm64-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "work-iosarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../work-iosarm64/0.12.0/work-iosarm64-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "work-iosarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../work-iossimulatorarm64/0.12.0/work-iossimulatorarm64-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "work-iossimulatorarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../work-iossimulatorarm64/0.12.0/work-iossimulatorarm64-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "work-iossimulatorarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../work-iossimulatorarm64/0.12.0/work-iossimulatorarm64-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "work-iossimulatorarm64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../work-iosx64/0.12.0/work-iosx64-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "work-iosx64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../work-iosx64/0.12.0/work-iosx64-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "work-iosx64",
+        "version": "0.12.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../work-iosx64/0.12.0/work-iosx64-0.12.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "work-iosx64",
+        "version": "0.12.0"
+      }
+    }
+  ]
+}
