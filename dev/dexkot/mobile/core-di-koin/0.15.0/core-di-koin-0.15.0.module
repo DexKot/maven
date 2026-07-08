@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-di-koin",
+    "version": "0.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-di-koin-0.15.0.aar",
+          "url": "core-di-koin-0.15.0.aar",
+          "size": 18443,
+          "sha512": "a9cc2d970c2c037c127276fcc07c7fdce28a3c7d7d9f6e96695b81082a8e9e041a90174291356110e49c07b9e8d071ed26f73223fd6331e3ddac720b043b64bc",
+          "sha256": "bd4b8a690cc393af609bbb0dd8a8804ee9d13e1a65b6121793b050626844970a",
+          "sha1": "a9c31071e3f1de6182171be4b751dfb95dd70d1d",
+          "md5": "f4e5803e7f16cb11d5e277e8d2881b7c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-firebase",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-posthog",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-permission",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig-firebase",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig-posthog",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-crashlytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "com.posthog",
+          "module": "posthog-android",
+          "version": {
+            "requires": "3.47.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-di-koin-0.15.0.aar",
+          "url": "core-di-koin-0.15.0.aar",
+          "size": 18443,
+          "sha512": "a9cc2d970c2c037c127276fcc07c7fdce28a3c7d7d9f6e96695b81082a8e9e041a90174291356110e49c07b9e8d071ed26f73223fd6331e3ddac720b043b64bc",
+          "sha256": "bd4b8a690cc393af609bbb0dd8a8804ee9d13e1a65b6121793b050626844970a",
+          "sha1": "a9c31071e3f1de6182171be4b751dfb95dd70d1d",
+          "md5": "f4e5803e7f16cb11d5e277e8d2881b7c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-di-koin-0.15.0-sources.jar",
+          "url": "core-di-koin-0.15.0-sources.jar",
+          "size": 4159,
+          "sha512": "beeb9a1dc32dd6e66828b8c048a7a491f4c85665ccacc497696c97819b1b3ca5174755e7792150ffc334a7bef3071f23e1aec50a8f7e60c63c03d97e277f72d7",
+          "sha256": "24ee685e269334952c0b53081a7f2e2df9999ebcf3998de390b378cec5e57f24",
+          "sha1": "812fb84bade10004ff13ff9caca06f43b8ef47d3",
+          "md5": "08ea77405b093eca4df84416f8364eb5"
+        }
+      ]
+    }
+  ]
+}
