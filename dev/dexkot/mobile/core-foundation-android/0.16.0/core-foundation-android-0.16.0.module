@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-foundation/0.16.0/core-foundation-0.16.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-foundation",
+    "version": "0.16.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-release.aar",
+          "url": "core-foundation-android-0.16.0.aar",
+          "size": 25257,
+          "sha512": "7743c3b19423f095292722e1deebaef5a249b72d41d4723d89d78a834603b45de5ab8a9a3f74d9b1cd202c2599d24e067f5748c33f9ed9a7abde4d93d44da64f",
+          "sha256": "0b5d32471671b07426a5e8f0052101f17a0686e2593073bd10397c7da2802eb3",
+          "sha1": "90b7b56814da03a263b13ed14a5511d1636f28c7",
+          "md5": "e02f5f658c8c4eaeeb1422b24d74554c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-release.aar",
+          "url": "core-foundation-android-0.16.0.aar",
+          "size": 25257,
+          "sha512": "7743c3b19423f095292722e1deebaef5a249b72d41d4723d89d78a834603b45de5ab8a9a3f74d9b1cd202c2599d24e067f5748c33f9ed9a7abde4d93d44da64f",
+          "sha256": "0b5d32471671b07426a5e8f0052101f17a0686e2593073bd10397c7da2802eb3",
+          "sha1": "90b7b56814da03a263b13ed14a5511d1636f28c7",
+          "md5": "e02f5f658c8c4eaeeb1422b24d74554c"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "foundation-android-0.16.0-sources.jar",
+          "url": "core-foundation-android-0.16.0-sources.jar",
+          "size": 9586,
+          "sha512": "dda987a9f3e835f0ae5871a71a473c6e2ec4de91048102aebfd775d107f11234184fe7ed41fd1a19e2760d1237d78b95fb64729294d058f582fedc6bfff195b7",
+          "sha256": "7be0675effcbb5dd631ec297918f376cd78664b7c61083c0567d6329c5d46e99",
+          "sha1": "22f4340bb1e05eef7af7856cf88874fd54f75a71",
+          "md5": "598a794ee1f3445d22dd80840f45bd07"
+        }
+      ]
+    }
+  ]
+}
