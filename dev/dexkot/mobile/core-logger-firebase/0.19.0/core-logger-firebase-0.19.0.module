@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger-firebase",
+    "version": "0.19.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.19.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-firebase-0.19.0.aar",
+          "url": "core-logger-firebase-0.19.0.aar",
+          "size": 6370,
+          "sha512": "52afda0fb5d0923a9ed93b32b767b93a14089b54a4c633c91691592cdfc958ef78d76dcfebeca5601c8e3eacc13a362ab75b680b362d9e93f67fdbabe35898c3",
+          "sha256": "7cd05960c5bdcc20687bfea2ce627860e5ed9813b32637ded0d68346b47240bc",
+          "sha1": "22e761a0bef2d9b5beb94c40bdab5d61bdbc6c2a",
+          "md5": "0da0406a7064f5b0c3353ecfd51b5830"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-crashlytics"
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.19.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-firebase-0.19.0.aar",
+          "url": "core-logger-firebase-0.19.0.aar",
+          "size": 6370,
+          "sha512": "52afda0fb5d0923a9ed93b32b767b93a14089b54a4c633c91691592cdfc958ef78d76dcfebeca5601c8e3eacc13a362ab75b680b362d9e93f67fdbabe35898c3",
+          "sha256": "7cd05960c5bdcc20687bfea2ce627860e5ed9813b32637ded0d68346b47240bc",
+          "sha1": "22e761a0bef2d9b5beb94c40bdab5d61bdbc6c2a",
+          "md5": "0da0406a7064f5b0c3353ecfd51b5830"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-logger-firebase-0.19.0-sources.jar",
+          "url": "core-logger-firebase-0.19.0-sources.jar",
+          "size": 1892,
+          "sha512": "4ac720d1ca1f8dc5f3a270470b9920c9f2e0f857a78b9d17a80a7050010aabe35bcbe35dcaeb6fd1de02de0ff4152c4d8ce990533ccabfa3d32faae35b21f0fd",
+          "sha256": "f447ffa1c26d04993dc4292a35c2379a65e72a8910b9b5d7c62b863a91e8189a",
+          "sha1": "457b5df3bdfad13d284db79040e1b2930d341478",
+          "md5": "3988132a5e22c00aa15e5327e2aae40f"
+        }
+      ]
+    }
+  ]
+}
