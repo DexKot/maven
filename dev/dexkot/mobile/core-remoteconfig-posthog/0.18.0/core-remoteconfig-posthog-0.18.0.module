@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig-posthog",
+    "version": "0.18.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-posthog-0.18.0.aar",
+          "url": "core-remoteconfig-posthog-0.18.0.aar",
+          "size": 13217,
+          "sha512": "c8e07ffe4ee221736d1690ebf5a2c08c8cae3f047cb1f4d676ec21e928a351f9318d248cbec245c915bad7a8216e6ce8039309328543b33bcf2badf87e7dfa06",
+          "sha256": "c6d47e5469093c9d2acecc873e7373d4ec2bf4e97f32d4c82e6996ff9259cfb8",
+          "sha1": "87dbc28bb5e2df5db994958f85802c36a07506da",
+          "md5": "1f3e9b4f21175349b9ebd99ee0433967"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.posthog",
+          "module": "posthog-android",
+          "version": {
+            "requires": "3.47.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-posthog-0.18.0.aar",
+          "url": "core-remoteconfig-posthog-0.18.0.aar",
+          "size": 13217,
+          "sha512": "c8e07ffe4ee221736d1690ebf5a2c08c8cae3f047cb1f4d676ec21e928a351f9318d248cbec245c915bad7a8216e6ce8039309328543b33bcf2badf87e7dfa06",
+          "sha256": "c6d47e5469093c9d2acecc873e7373d4ec2bf4e97f32d4c82e6996ff9259cfb8",
+          "sha1": "87dbc28bb5e2df5db994958f85802c36a07506da",
+          "md5": "1f3e9b4f21175349b9ebd99ee0433967"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-posthog-0.18.0-sources.jar",
+          "url": "core-remoteconfig-posthog-0.18.0-sources.jar",
+          "size": 2620,
+          "sha512": "97e99d5f5c3a464a1ab681ca42e3a7afbb18971e3b6345d6495d5df51a339e9d397a0160a6adca2c9fef41c34cc58ba0c63df219eb7e2d26b037b98361c0cf88",
+          "sha256": "c33a89fde8691b8ebb221ff77de0c5e94fa83e858a887bd7d76f59c39aa1ac09",
+          "sha1": "335fc6dbade9ecc3dbb3dcf684dae345e7a3b6f9",
+          "md5": "20d06c6a95bf010857e8e72374ce4856"
+        }
+      ]
+    }
+  ]
+}
