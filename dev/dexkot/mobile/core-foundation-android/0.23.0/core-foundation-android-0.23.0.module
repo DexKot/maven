@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-foundation/0.23.0/core-foundation-0.23.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-foundation",
+    "version": "0.23.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-foundation-release.aar",
+          "url": "core-foundation-android-0.23.0.aar",
+          "size": 25373,
+          "sha512": "51d47c64b36944ed793dd60abd28fe53d41482ee8c7f8ebd72bf2d68a785af18eb1c603c8b4759f0f773efea13e5e66cdd6d8c95d504a15ac30e0e848d7ab76d",
+          "sha256": "dc44d45edac1febdf42803d963cfb4c8a60e85ac41f46e2b6cc23f4e3f0158c9",
+          "sha1": "5615a81b43e2962c704195f2d9cf74dfb38975b1",
+          "md5": "fb6dff62acb83c2b78b1af1795c97f2f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-foundation-release.aar",
+          "url": "core-foundation-android-0.23.0.aar",
+          "size": 25373,
+          "sha512": "51d47c64b36944ed793dd60abd28fe53d41482ee8c7f8ebd72bf2d68a785af18eb1c603c8b4759f0f773efea13e5e66cdd6d8c95d504a15ac30e0e848d7ab76d",
+          "sha256": "dc44d45edac1febdf42803d963cfb4c8a60e85ac41f46e2b6cc23f4e3f0158c9",
+          "sha1": "5615a81b43e2962c704195f2d9cf74dfb38975b1",
+          "md5": "fb6dff62acb83c2b78b1af1795c97f2f"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-foundation-android-0.23.0-sources.jar",
+          "url": "core-foundation-android-0.23.0-sources.jar",
+          "size": 9586,
+          "sha512": "dda987a9f3e835f0ae5871a71a473c6e2ec4de91048102aebfd775d107f11234184fe7ed41fd1a19e2760d1237d78b95fb64729294d058f582fedc6bfff195b7",
+          "sha256": "7be0675effcbb5dd631ec297918f376cd78664b7c61083c0567d6329c5d46e99",
+          "sha1": "22f4340bb1e05eef7af7856cf88874fd54f75a71",
+          "md5": "598a794ee1f3445d22dd80840f45bd07"
+        }
+      ]
+    }
+  ]
+}
