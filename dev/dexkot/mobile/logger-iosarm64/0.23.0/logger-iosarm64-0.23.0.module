@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-logger/0.23.0/core-logger-0.23.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger",
+    "version": "0.23.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logger-iosArm64Main-0.23.0.klib",
+          "url": "logger-iosarm64-0.23.0.klib",
+          "size": 63123,
+          "sha512": "0e8fd8e3532ee11869675d6a3632fda3a9b525cdc1e02e0223b5849c9159ed98ef78846342a390752235981190fd094179c75cf10d349908b35e6b68dd0946f1",
+          "sha256": "b6b644183274d217217e34405aa4bca515c85dffae9d619ca7c9360f0fa8c531",
+          "sha1": "1dd00419cbe1bf9e3dd1a18bc2aba1917a85c9b3",
+          "md5": "8b07b7c8581724a3af25822e1382ad37"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "logger-iosarm64-0.23.0-sources.jar",
+          "url": "logger-iosarm64-0.23.0-sources.jar",
+          "size": 23929,
+          "sha512": "063dd56f60de910c07137f78ea6f157e3ee8477b7d76bc8b760ced901ad3a8361f9bc8966de424abcdb0d14012e5954171423a4f2f264f2042acee7b14b77869",
+          "sha256": "6c8953055122a44d7eab85cdcd9d8f7c5c0d8809a05b3f45409624880819ea44",
+          "sha1": "6bcf5e625931b3a117ba7ac205709a182b8013eb",
+          "md5": "c457ec00f07b10a0da189f10e77a348b"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logger-iosarm64-0.23.0-metadata.jar",
+          "url": "logger-iosarm64-0.23.0-metadata.jar",
+          "size": 4211,
+          "sha512": "f9af1ce96c32f4d8cd908f3427e8a32a1bd7a9ec423d79b61ddb3257fa5c473644bf133f91878129be382e6fa7acf473b675af6f81b4c52617bc5d213f3168b9",
+          "sha256": "359a450befd9907e83fb310ffc8156b5bce2b3f3a603059a879fd2713722bdc5",
+          "sha1": "bf766210dfb89a128b0e302e5cc8d54a9d26a40e",
+          "md5": "b6d4d302b6a80712a1cdf3c957e7d7d3"
+        }
+      ]
+    }
+  ]
+}

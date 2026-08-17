@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-database/0.23.0/core-database-0.23.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-database",
+    "version": "0.23.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "database-iosX64Main-0.23.0.klib",
+          "url": "database-iosx64-0.23.0.klib",
+          "size": 5850,
+          "sha512": "48a65ba91e24ee688e72738863cffb95f51436d1b4623d245bfe0b194a0c6bbfa13455d701cd55d62ac8e3c902bf6b4fb1b5f8bf5c81be221c17d57b140da306",
+          "sha256": "81887b50451003844ab6eb61d7447d08ac2652a52a04dc5fcda142dc153ac823",
+          "sha1": "e13f836be2c1b0df6d85381da1d986fe49b028fa",
+          "md5": "19892bbaa40d2f7fcded0b35d590f39e"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "database-iosx64-0.23.0-sources.jar",
+          "url": "database-iosx64-0.23.0-sources.jar",
+          "size": 2104,
+          "sha512": "4490c10c602579a4558dadd16286df60598548bfc3080e3219a526e37db130140a319a4dda017d6124ec7f22799ce71059571723fc8fb30790f94f1f874e9f7d",
+          "sha256": "aba816c8af3c5cd99718856e62b068ba054b269470163cda1b650ff6528fa9b3",
+          "sha1": "d73da313d43e8ad8ab616ebec2906b0312caf837",
+          "md5": "fcf5ff75f6c30576b4acf9df13f1e998"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "database-iosx64-0.23.0-metadata.jar",
+          "url": "database-iosx64-0.23.0-metadata.jar",
+          "size": 261,
+          "sha512": "d692711fd013fd8264a431e0c58f56e422ef904f99d3aa38439c99187a2f6df3b1f9d0e3c4d35c4cabd67a21f22317a939af5d694fffac40b928822baf95b101",
+          "sha256": "a59f238efd9d2327ce52cce6712d20dc1834c5b8368acb2dfa93fa4fcf5fc876",
+          "sha1": "5fc317fb0b22b07c6d3aacb214a6122b67e07d6d",
+          "md5": "04a2de1a93b61f48b7a40721ac7b4531"
+        }
+      ]
+    }
+  ]
+}

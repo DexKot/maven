@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-database/0.23.0/core-database-0.23.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-database",
+    "version": "0.23.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "database-iosSimulatorArm64Main-0.23.0.klib",
+          "url": "database-iossimulatorarm64-0.23.0.klib",
+          "size": 5929,
+          "sha512": "00c4756ba6e325990aa8c401b177eade107c0567f32eb96fa64e216fa07791da61d2eceb428720168c926a5bf2740a5843060dee31691e9017ca10cfe473e47b",
+          "sha256": "471ab2a87873565feb01a2c4f8bd9b04c85ca09c1927a662da87e94bfa6e5bea",
+          "sha1": "d03ce14d51d3c856eea69b209ce0978ba890fadc",
+          "md5": "8684ac1936dc2f40de24cebc2a91dbbf"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "database-iossimulatorarm64-0.23.0-sources.jar",
+          "url": "database-iossimulatorarm64-0.23.0-sources.jar",
+          "size": 2104,
+          "sha512": "4490c10c602579a4558dadd16286df60598548bfc3080e3219a526e37db130140a319a4dda017d6124ec7f22799ce71059571723fc8fb30790f94f1f874e9f7d",
+          "sha256": "aba816c8af3c5cd99718856e62b068ba054b269470163cda1b650ff6528fa9b3",
+          "sha1": "d73da313d43e8ad8ab616ebec2906b0312caf837",
+          "md5": "fcf5ff75f6c30576b4acf9df13f1e998"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "database-iossimulatorarm64-0.23.0-metadata.jar",
+          "url": "database-iossimulatorarm64-0.23.0-metadata.jar",
+          "size": 261,
+          "sha512": "d692711fd013fd8264a431e0c58f56e422ef904f99d3aa38439c99187a2f6df3b1f9d0e3c4d35c4cabd67a21f22317a939af5d694fffac40b928822baf95b101",
+          "sha256": "a59f238efd9d2327ce52cce6712d20dc1834c5b8368acb2dfa93fa4fcf5fc876",
+          "sha1": "5fc317fb0b22b07c6d3aacb214a6122b67e07d6d",
+          "md5": "04a2de1a93b61f48b7a40721ac7b4531"
+        }
+      ]
+    }
+  ]
+}

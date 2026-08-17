@@ -1,0 +1,205 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-database-sqldelight/0.23.0/core-database-sqldelight-0.23.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-database-sqldelight",
+    "version": "0.23.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-database",
+          "version": {
+            "requires": "0.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "database-sqldelight-release.aar",
+          "url": "core-database-sqldelight-android-0.23.0.aar",
+          "size": 28406,
+          "sha512": "8dfec0b0835a52178899793b59b6247b6fa6f7a6ce057f6a1943720f96b2bc3a4c222dd897dc32a1b79faa3e18bfb48fcf24b527889576f5521e38436de2a05e",
+          "sha256": "702f24a65a0ff5aba3b4faf5ff0dfaffff2bd74f041be4763b3487d723901dfd",
+          "sha1": "9608ff03f64ca99edc4c6f625b4edf97221994da",
+          "md5": "5e5b3aa31c6a022ae67bd9fadaa3ccb5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-database",
+          "version": {
+            "requires": "0.23.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.23.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "database-sqldelight-release.aar",
+          "url": "core-database-sqldelight-android-0.23.0.aar",
+          "size": 28406,
+          "sha512": "8dfec0b0835a52178899793b59b6247b6fa6f7a6ce057f6a1943720f96b2bc3a4c222dd897dc32a1b79faa3e18bfb48fcf24b527889576f5521e38436de2a05e",
+          "sha256": "702f24a65a0ff5aba3b4faf5ff0dfaffff2bd74f041be4763b3487d723901dfd",
+          "sha1": "9608ff03f64ca99edc4c6f625b4edf97221994da",
+          "md5": "5e5b3aa31c6a022ae67bd9fadaa3ccb5"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "database-sqldelight-android-0.23.0-sources.jar",
+          "url": "core-database-sqldelight-android-0.23.0-sources.jar",
+          "size": 7668,
+          "sha512": "ee5b56d7fbcb8daedd4759819202134f42ec6c4b5e001cbaf008042168a0775503cbecf67f9f521e6454f99e7e5dc9ea6515dc0d16fd379c07bddf21224841f9",
+          "sha256": "cf043a65159e4e2d6dab86493ee6aca4215a4bcdd8b3267e1df69a9cc0dda5e1",
+          "sha1": "ca50e8564e3a095cbbfa753ad78a63ec6b91c2de",
+          "md5": "0177311292e93c3f46fa1ed34dc18a8b"
+        }
+      ]
+    }
+  ]
+}

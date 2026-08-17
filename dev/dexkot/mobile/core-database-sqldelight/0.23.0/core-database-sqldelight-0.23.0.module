@@ -1,0 +1,295 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-database-sqldelight",
+    "version": "0.23.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-database",
+          "version": {
+            "requires": "0.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "database-sqldelight-metadata-0.23.0.jar",
+          "url": "core-database-sqldelight-0.23.0.jar",
+          "size": 6940,
+          "sha512": "850ea6026684f498d6547e1c266538f652c38593607b44ded6c2f4313e38bd967a2815773784173aa0bb9877629450ab859d28da6b77f18acfcfa401d00d76f2",
+          "sha256": "0f1c2c1fb204f3e3a019abb52acb486565bc59e7be0a6ab8de556c44d1db984e",
+          "sha1": "4271688d5f1ca43739449cf0e6812c63c09985e1",
+          "md5": "ad498d40601711d90fddf5c52cfe9607"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "database-sqldelight-kotlin-0.23.0-sources.jar",
+          "url": "core-database-sqldelight-0.23.0-sources.jar",
+          "size": 7611,
+          "sha512": "579bb211ba54ca5f5fcf63271dcb0c5e7feafed6b4a84da63bf43939b9e46f76ca1ab30410b9f59c6da2c06456d590c2b2b6e6744300bd4a6e69db0af82f19fa",
+          "sha256": "6f262d903b6e9ffd1fa9810658a8f1f346753a876ea267c11878b345bdbcb40c",
+          "sha1": "84f93495432a022edd14b0179ae60c3da5ff4f8c",
+          "md5": "0331aa5ab10587798c3363556dbc4f52"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-database-sqldelight-android/0.23.0/core-database-sqldelight-android-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-database-sqldelight-android",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-database-sqldelight-android/0.23.0/core-database-sqldelight-android-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-database-sqldelight-android",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-database-sqldelight-android/0.23.0/core-database-sqldelight-android-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-database-sqldelight-android",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../database-sqldelight-iosarm64/0.23.0/database-sqldelight-iosarm64-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "database-sqldelight-iosarm64",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../database-sqldelight-iosarm64/0.23.0/database-sqldelight-iosarm64-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "database-sqldelight-iosarm64",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../database-sqldelight-iosarm64/0.23.0/database-sqldelight-iosarm64-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "database-sqldelight-iosarm64",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../database-sqldelight-iossimulatorarm64/0.23.0/database-sqldelight-iossimulatorarm64-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "database-sqldelight-iossimulatorarm64",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../database-sqldelight-iossimulatorarm64/0.23.0/database-sqldelight-iossimulatorarm64-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "database-sqldelight-iossimulatorarm64",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../database-sqldelight-iossimulatorarm64/0.23.0/database-sqldelight-iossimulatorarm64-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "database-sqldelight-iossimulatorarm64",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../database-sqldelight-iosx64/0.23.0/database-sqldelight-iosx64-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "database-sqldelight-iosx64",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../database-sqldelight-iosx64/0.23.0/database-sqldelight-iosx64-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "database-sqldelight-iosx64",
+        "version": "0.23.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../database-sqldelight-iosx64/0.23.0/database-sqldelight-iosx64-0.23.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "database-sqldelight-iosx64",
+        "version": "0.23.0"
+      }
+    }
+  ]
+}
