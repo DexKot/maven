@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-logger-firebase/0.24.1/core-logger-firebase-0.24.1.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger-firebase",
+    "version": "0.24.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.24.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-firebase-iosArm64Main-0.24.1.klib",
+          "url": "core-logger-firebase-iosarm64-0.24.1.klib",
+          "size": 13725,
+          "sha512": "8bc0144f5f17ce89368625d18c3bfeb0edc649867d12e6383916d72170521c67eb732bd0a4edc104c29cd4f2143aeeecaabfc0ed9c3559419e375db7a89c5d09",
+          "sha256": "b4f4885be2c1c37e3fd7449986e0bcdfb41ed85b2e69d2e20dc537d045c3fafa",
+          "sha1": "afe83ef378c59fcc2b268771bb0e80347662c3dc",
+          "md5": "6d83b4a0839c06187dc8153b0e31b5ba"
+        },
+        {
+          "name": "core-logger-firebase-iosArm64Cinterop-FirebaseAnalyticsMain-0.24.1.klib",
+          "url": "core-logger-firebase-iosarm64-0.24.1-cinterop-FirebaseAnalytics.klib",
+          "size": 27161,
+          "sha512": "379959a088947422240363b83f6700ce6365b90deba2013d8b27fa635ea8bc08d288fc2c46f9c0be6286e40ffd1359a4d93d8f00af3a75a26780ed64d25e592b",
+          "sha256": "74138644dfbae34a192736b2430d017c227ce4a4679eabeb519544febf3cc5a8",
+          "sha1": "e230c19ad3d200fe485c9d61b700472ead9eae27",
+          "md5": "8910a59822b1ba13ab38e11234a10881"
+        },
+        {
+          "name": "core-logger-firebase-iosArm64Cinterop-FirebaseCrashlyticsMain-0.24.1.klib",
+          "url": "core-logger-firebase-iosarm64-0.24.1-cinterop-FirebaseCrashlytics.klib",
+          "size": 11618,
+          "sha512": "23689df6d98a296c9f63ac4934aa6fc2a33a57b97ba9a12caf1c1d563644da1a7912d91cfe5f5bda6528d0465250be9d97b736da6a3b432acf1b782cf0c27201",
+          "sha256": "0be5a6bccc75d33e333fd488e2fba01efa313a5161b3c13b782ed179a6920c44",
+          "sha1": "83429e045a1291ec787cb9debf73cf76e91a43d8",
+          "md5": "192736872611056cba8463721d094bdc"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-logger-firebase-iosarm64-0.24.1-sources.jar",
+          "url": "core-logger-firebase-iosarm64-0.24.1-sources.jar",
+          "size": 4059,
+          "sha512": "32b896ad62818370aa2a733e19a8e4273d9243aeafd45138e7f2cc9427a87b1d7a9232c79838a0c9cf76621aebc252d565b76f72db5d97dc64a60a8cc89ef151",
+          "sha256": "848e11285e571da5438bafa6851731ece4c941c552dc536ef9f6dca931196ff1",
+          "sha1": "73b6212fd8ac3bea90f77fed0a00f3af5f04a7e9",
+          "md5": "932852f3c06536b53e0256316ceff348"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.24.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-firebase-iosarm64-0.24.1-metadata.jar",
+          "url": "core-logger-firebase-iosarm64-0.24.1-metadata.jar",
+          "size": 51630,
+          "sha512": "cb1f0773cbe94071c35ba22017e635da90f1dc695d821c4157c972f471eefc482e898894c36f6d6639fe9cdeaf46cfb1ceb5637587a7e066ab3cd3928fc2d1f3",
+          "sha256": "a10d5ac71e9dd4590b6bef19b3450de8399842d2fa35861854d86b002422d031",
+          "sha1": "a2a3ee0e38dd3be51e7fce082913171b273839a3",
+          "md5": "7a56916ba2552f14e4ab38117841bc29"
+        }
+      ]
+    }
+  ]
+}

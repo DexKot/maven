@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-remoteconfig-firebase/0.24.1/core-remoteconfig-firebase-0.24.1.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig-firebase",
+    "version": "0.24.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.24.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-release.aar",
+          "url": "core-remoteconfig-firebase-android-0.24.1.aar",
+          "size": 16095,
+          "sha512": "23fb0b8d9de33537f2b9ba0868ca3453f4172d5207133bd3ff5d5c3ccd38596f2959ad252ccc9d68bf7cb4c28df17c0ab90846af6936b59c2da5da1a3f393e3b",
+          "sha256": "63af496d595d8fe90daea9628891890e976fd3dd7249fae4c067a070966b490d",
+          "sha1": "9c9d32f14a5af89e748b6d14edc7047474ad87e1",
+          "md5": "fd0b5411684fba34942290155c31f3ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config",
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-play-services",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.24.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-release.aar",
+          "url": "core-remoteconfig-firebase-android-0.24.1.aar",
+          "size": 16095,
+          "sha512": "23fb0b8d9de33537f2b9ba0868ca3453f4172d5207133bd3ff5d5c3ccd38596f2959ad252ccc9d68bf7cb4c28df17c0ab90846af6936b59c2da5da1a3f393e3b",
+          "sha256": "63af496d595d8fe90daea9628891890e976fd3dd7249fae4c067a070966b490d",
+          "sha1": "9c9d32f14a5af89e748b6d14edc7047474ad87e1",
+          "md5": "fd0b5411684fba34942290155c31f3ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-android-0.24.1-sources.jar",
+          "url": "core-remoteconfig-firebase-android-0.24.1-sources.jar",
+          "size": 5538,
+          "sha512": "84d119f2a3d22a0d13cb281dc71cfe8954abeade918484b285ccb8e76d8b07cdc5a2a06fe6c38e8e58e837efb8703295bfbd67c2e8492dac5ca20ab660f252e2",
+          "sha256": "e816289607bc89f818685e1a7c3123bfbc104ba4512684e36ca77b137f760f0e",
+          "sha1": "9f0f042a921ad12d96621e2dc522c54192ed9a8f",
+          "md5": "6f623092b1dad29e5818c4a9e3814c29"
+        }
+      ]
+    }
+  ]
+}

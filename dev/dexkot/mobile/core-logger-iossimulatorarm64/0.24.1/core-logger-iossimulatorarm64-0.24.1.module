@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-logger/0.24.1/core-logger-0.24.1.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger",
+    "version": "0.24.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-iosSimulatorArm64Main-0.24.1.klib",
+          "url": "core-logger-iossimulatorarm64-0.24.1.klib",
+          "size": 63196,
+          "sha512": "b6adbca738b1944e2c51b2c18404db78b3c4489204d23907a8842cf83d8f4d80f36c9fc76cb0d89f0db5066014212e611623702207accd81a6544cad91dbcdc4",
+          "sha256": "59444a9636e112f7d121be965f12cc6e481e447d055619732b67dee0eb828229",
+          "sha1": "21d4c2b339f38352201ec4375c010dcd12d5401c",
+          "md5": "6665a366b94f40deac39e1cb2a65f9e6"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-logger-iossimulatorarm64-0.24.1-sources.jar",
+          "url": "core-logger-iossimulatorarm64-0.24.1-sources.jar",
+          "size": 23929,
+          "sha512": "063dd56f60de910c07137f78ea6f157e3ee8477b7d76bc8b760ced901ad3a8361f9bc8966de424abcdb0d14012e5954171423a4f2f264f2042acee7b14b77869",
+          "sha256": "6c8953055122a44d7eab85cdcd9d8f7c5c0d8809a05b3f45409624880819ea44",
+          "sha1": "6bcf5e625931b3a117ba7ac205709a182b8013eb",
+          "md5": "c457ec00f07b10a0da189f10e77a348b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-iossimulatorarm64-0.24.1-metadata.jar",
+          "url": "core-logger-iossimulatorarm64-0.24.1-metadata.jar",
+          "size": 4222,
+          "sha512": "7c5998c7b1fb3afad9ff6ee27506458cdb3dc46844e473024c80b68c71f49094091914b027ee2f68f071fad9e5414c1314e104214ac8cbf17066ce2f7a6041ba",
+          "sha256": "1d7970beba56abaa533a86805e105d4ad302303f979f2eacd48ef8f0a78c30c7",
+          "sha1": "f758fe957691bf69dd28f7580ac3a54a43b5ce86",
+          "md5": "ab354969cfe867f58a28915c627b2909"
+        }
+      ]
+    }
+  ]
+}
