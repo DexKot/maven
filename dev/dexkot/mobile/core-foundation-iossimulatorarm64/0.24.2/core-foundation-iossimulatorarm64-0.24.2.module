@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-foundation/0.24.2/core-foundation-0.24.2.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-foundation",
+    "version": "0.24.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-foundation-iosSimulatorArm64Main-0.24.2.klib",
+          "url": "core-foundation-iossimulatorarm64-0.24.2.klib",
+          "size": 24270,
+          "sha512": "21057083ccaf4d158de5a70ce610d4ebb847be40e99b61e08f3b18efa17a2bfc68f3e6194a33cabe98bbfd89facbc610584f15f678b41293ebfdf35b80a34ce5",
+          "sha256": "a779067d2eea8a56bae5f4260b57fe37caa7716a503a7e7ad694979f384fb05d",
+          "sha1": "3bb557c90188b007b53eb5e325d2b833a35b1f1e",
+          "md5": "5fbc74408fd94b4634be12c0b1d25c57"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-foundation-iossimulatorarm64-0.24.2-sources.jar",
+          "url": "core-foundation-iossimulatorarm64-0.24.2-sources.jar",
+          "size": 10044,
+          "sha512": "301e52da4947b1ca0416e5404ae7830ad722f986fc6b37c4757df7eb83afc2e9584b6a80c750f05f892fbf536fc88c741e138aa8db5cc024c241a3efed1b7e61",
+          "sha256": "56e7181e02e3fd9276205dc170af2417ff870ab96c3b8a74eeaa751f3d5ee29a",
+          "sha1": "15c9a445b8eef4309cf445a3f83373e7012f6a42",
+          "md5": "35f8ed77d8a277b84a2e0e756d85853c"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-foundation-iossimulatorarm64-0.24.2-metadata.jar",
+          "url": "core-foundation-iossimulatorarm64-0.24.2-metadata.jar",
+          "size": 3504,
+          "sha512": "d1e4dfaf9192b1001cbe1ddd6695fb982bfa42655030919de301e4b0f4e73d117e0982ffc38348b5c5fa852e1dd9ea68cc4f74bf0350272a8f32f0fb9e407814",
+          "sha256": "f382c92d348707cb5959967faca609dda78e72266c00f145b9129ade53d6e9e4",
+          "sha1": "5f4e8eb28f3eebcdc05c5b14a1adc45237b843e1",
+          "md5": "105db8391d1eecd66d6e9c7c6e0c96be"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-database-sqldelight/0.24.2/core-database-sqldelight-0.24.2.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-database-sqldelight",
+    "version": "0.24.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-database",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-sqldelight-iosSimulatorArm64Main-0.24.2.klib",
+          "url": "core-database-sqldelight-iossimulatorarm64-0.24.2.klib",
+          "size": 20327,
+          "sha512": "f3ee2db73f608bc671eb47bfa28ed28cec34d3ab85937af40b9acdcad150e3bc8d25cc1428e26ed3d68298d381e69d4b2828493d7590f2425206d4bda1c43756",
+          "sha256": "a1803b06e562f76d10baf5d691af1652ed42d22105b3b0ce2e399b51dde8ba80",
+          "sha1": "919aa6402a953bb451d2aa22ae5cad5aa4898106",
+          "md5": "83dfcd7a14b3749df6bfdc3bb8c5245c"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-database-sqldelight-iossimulatorarm64-0.24.2-sources.jar",
+          "url": "core-database-sqldelight-iossimulatorarm64-0.24.2-sources.jar",
+          "size": 7611,
+          "sha512": "c06d09453bf2e80c9279fa11b5eb4aaba4454dad14113d7c5b70df03ff6645c552acc0d4389976cbbee504737434706410692ff66662f64d43c836e58d8e6660",
+          "sha256": "b7cd9808b029c66c0e854ed18479e3e86dfca7c42ee14a08f38f8bfc76767569",
+          "sha1": "df597c129d52db901bc7729fc33edeeadb0b4773",
+          "md5": "1ad1049ed75d2b7fce0480aa3d4f9092"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-database",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-sqldelight-iossimulatorarm64-0.24.2-metadata.jar",
+          "url": "core-database-sqldelight-iossimulatorarm64-0.24.2-metadata.jar",
+          "size": 2608,
+          "sha512": "c39dfb11fe935f080841598f4898fe128eb9e0dd7ae89e8799c9b0eec31ae568026889d73f70f24f4572eda1dc23039de910a09fa29df4bebc0c5fe6564ba338",
+          "sha256": "fecc2c1bfedd01308c7a3db7d89220ee87d29c1d150e49744d4873b74d10c11f",
+          "sha1": "f8e08484c30d0187afcc1d5b3bb36135da3af7b0",
+          "md5": "c4e143288a86626daf04ed36d224d981"
+        }
+      ]
+    }
+  ]
+}

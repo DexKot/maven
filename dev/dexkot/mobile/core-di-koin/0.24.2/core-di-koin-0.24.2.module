@@ -1,0 +1,223 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-di-koin",
+    "version": "0.24.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-di-koin-0.24.2.aar",
+          "url": "core-di-koin-0.24.2.aar",
+          "size": 24205,
+          "sha512": "a206173f88aea3b4bc7b50d248841d66ead39d2534241ab9234a9bdee30cd33f512aa32605e0633b73d97cc2f2696b9e4b14c1248c05adb48e0bc3f562a18918",
+          "sha256": "3cff624d5f1c2e0872f916c8a5930cba393e9a429e81ef837ac7e0173a973398",
+          "sha1": "8f2b78d8fffc7e4b2302ad0b1c20449eb6ce51fa",
+          "md5": "1832d685d2ece2053715549a98c2ac2c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-firebase",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-posthog",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-permission",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig-firebase",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig-posthog",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-work",
+          "version": {
+            "requires": "0.24.2"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.11.1"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-crashlytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-config"
+        },
+        {
+          "group": "com.posthog",
+          "module": "posthog-android",
+          "version": {
+            "requires": "3.47.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-di-koin-0.24.2.aar",
+          "url": "core-di-koin-0.24.2.aar",
+          "size": 24205,
+          "sha512": "a206173f88aea3b4bc7b50d248841d66ead39d2534241ab9234a9bdee30cd33f512aa32605e0633b73d97cc2f2696b9e4b14c1248c05adb48e0bc3f562a18918",
+          "sha256": "3cff624d5f1c2e0872f916c8a5930cba393e9a429e81ef837ac7e0173a973398",
+          "sha1": "8f2b78d8fffc7e4b2302ad0b1c20449eb6ce51fa",
+          "md5": "1832d685d2ece2053715549a98c2ac2c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-di-koin-0.24.2-sources.jar",
+          "url": "core-di-koin-0.24.2-sources.jar",
+          "size": 5989,
+          "sha512": "e7588109a3a932f3f0c1cd0218dcce137e987a5d7c60b54756b909e43facf3defbfacc0f1b44ab60fb503c32403f891b19723123f62969b96992c96652a7e585",
+          "sha256": "46f80b4ea193d4f4701bf0ae2d690eb930be048968217bbcd1d751dbf068b5e7",
+          "sha1": "ab8a26acb8fe3cc6317350efefe22657c9ccb30d",
+          "md5": "30074fc585ef5da8931b3c6bdc68e4e7"
+        }
+      ]
+    }
+  ]
+}
