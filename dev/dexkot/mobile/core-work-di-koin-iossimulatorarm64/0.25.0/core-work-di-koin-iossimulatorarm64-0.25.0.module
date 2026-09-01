@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-work-di-koin/0.25.0/core-work-di-koin-0.25.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-work-di-koin",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-work",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-work-di-koin-iosSimulatorArm64Main-0.25.0.klib",
+          "url": "core-work-di-koin-iossimulatorarm64-0.25.0.klib",
+          "size": 8794,
+          "sha512": "bc1d301bd4d2122acc37f1a3f0acf196438cb86bf76572a4aab4d43c991e3071948dcb47441b559a6a71214956e0ff55c372e711a3c4e267bb733f5d56eff956",
+          "sha256": "6e634f812bd378081504a02740190a172d12fb3f8a5b029aec96f82aac1b6b53",
+          "sha1": "fc939004cde82f4bf54d1608aea318bc3479de21",
+          "md5": "1f534a468da430e82e28b443b55db746"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-work-di-koin-iossimulatorarm64-0.25.0-sources.jar",
+          "url": "core-work-di-koin-iossimulatorarm64-0.25.0-sources.jar",
+          "size": 2943,
+          "sha512": "0e8e7da407e89b7a078da5644eb5f5b46d85ff26d924a3ebb534b0f662ca7ac86e60cf635f2df01d4f383863d25b4c52b34b34fae71aa15100ca1bfb61545bd1",
+          "sha256": "4138896f3defaf51479ba613096d32b8672446ae9ece852709e77641383a8ee0",
+          "sha1": "a98b1d9be11cd2d2bb5f70c2fa1db3606b7c21d2",
+          "md5": "3e3cea31f117e115eff4a6643b4b6a67"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-work",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-work-di-koin-iossimulatorarm64-0.25.0-metadata.jar",
+          "url": "core-work-di-koin-iossimulatorarm64-0.25.0-metadata.jar",
+          "size": 261,
+          "sha512": "f7dda68078973a6d31b65cf79c6158b998d8d1db2dd2116dabada149bde7c7af319268b11dc871c980ed2e40f1fb3072e87b33e5e11a74e5d1cbcf123fedd738",
+          "sha256": "1b0d1a9d87271230cda98cab501aa4b852a227a32f1eb33710e86b63fbd51dbb",
+          "sha1": "0641cbee5bdf62c16dddd293b7a9f302269d7b10",
+          "md5": "a84b4fc6b3099205d6455ad3e6c4c83f"
+        }
+      ]
+    }
+  ]
+}

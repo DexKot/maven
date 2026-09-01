@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-logger-posthog/0.25.0/core-logger-posthog-0.25.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger-posthog",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-posthog-iosSimulatorArm64Main-0.25.0.klib",
+          "url": "core-logger-posthog-iossimulatorarm64-0.25.0.klib",
+          "size": 16175,
+          "sha512": "6cdb722647f0c7f2807eb7f8fda80fbd72372ae5c1409298d2b3ae38ef2f9a1e60f00d5a714dcf2b4399e0851b2cf54ce5318543e4cfe60e02cd88fb82c3390e",
+          "sha256": "1b48512a0537f8ee0d0c9ce62f3f1c5f989ca51174c6a497413432186a5a8a5e",
+          "sha1": "506ca44215e04d39a01f75b3bf2a4e23597f680c",
+          "md5": "55d3768039f368aa7a69e67d76dbec17"
+        },
+        {
+          "name": "core-logger-posthog-iosSimulatorArm64Cinterop-PostHogMain-0.25.0.klib",
+          "url": "core-logger-posthog-iossimulatorarm64-0.25.0-cinterop-PostHog.klib",
+          "size": 21197,
+          "sha512": "c8f5f741c12d107cadf77e938f9f3a1de303439ad29706728f73e5959767be7f134ad477836097d405bf5a2db92481baf7d44e2e308617483139ea13e34f0b63",
+          "sha256": "aa5ed2f94bf49e81567f7f18cb57a397fe8dcb8cc08fe9f85f4d4e91b2fa3db7",
+          "sha1": "2b73357ac3ac33b361fe35064fd91d42e6efb728",
+          "md5": "37d38717cf4a75da82c69cb35ed9a1ea"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-logger-posthog-iossimulatorarm64-0.25.0-sources.jar",
+          "url": "core-logger-posthog-iossimulatorarm64-0.25.0-sources.jar",
+          "size": 4829,
+          "sha512": "1edd1960e779ecc921a52c9182b0efdbe6b4e1655aaa0afab2efe1547ef045945543105dc42715c85c3fcf8fced5de59f6ebfafb827a0b533777dfde18888014",
+          "sha256": "f010b1e679e6428e381b97eb825ed808dcf592b90946444494178256ce5e069f",
+          "sha1": "39b2a8f0ba5bedad80a8187291732ee43dc0b539",
+          "md5": "cf1702f80ca814c1310ddd80cff05705"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-posthog-iossimulatorarm64-0.25.0-metadata.jar",
+          "url": "core-logger-posthog-iossimulatorarm64-0.25.0-metadata.jar",
+          "size": 55964,
+          "sha512": "538a25ed5d5862acc6f25519ae11a3a9601d2fe872c4769096f0eae6c7f80bcf50152ccf7e45afc4cfe9149646ddea98dde0e692fcad23b3bef0daf9af571b61",
+          "sha256": "cb9efcfd27fd204117b82f97e066cb284d212d2bde34a09242952186d8c00ed8",
+          "sha1": "0a4cf82188cc9ab6aa1ba686d3dd917920f081d3",
+          "md5": "d847a79031d0a2f16a4a587e38ce16cc"
+        }
+      ]
+    }
+  ]
+}

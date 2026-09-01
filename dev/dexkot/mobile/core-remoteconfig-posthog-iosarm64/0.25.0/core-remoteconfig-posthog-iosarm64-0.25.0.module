@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-remoteconfig-posthog/0.25.0/core-remoteconfig-posthog-0.25.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig-posthog",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-posthog-iosArm64Main-0.25.0.klib",
+          "url": "core-remoteconfig-posthog-iosarm64-0.25.0.klib",
+          "size": 16438,
+          "sha512": "0111b06bb2de623939d2b94c5f53d37dd8a3a6d0b35672fb663a3e988ea0213661e5392a8348d629a20bc48b919145ef2864b3bb4a006e73a42472ec979c49b8",
+          "sha256": "00035cfa6c6fa28a4b8c99f385c052bfbab1e2861e432a51171c1fa12dc6ba05",
+          "sha1": "2412f1405f9b2dd86f2e6d7f60e4b7e22efe9273",
+          "md5": "8df935b9247728e7122a8e1b69b34f4c"
+        },
+        {
+          "name": "core-remoteconfig-posthog-iosArm64Cinterop-PostHogMain-0.25.0.klib",
+          "url": "core-remoteconfig-posthog-iosarm64-0.25.0-cinterop-PostHog.klib",
+          "size": 20584,
+          "sha512": "eaf07c1d7bb412255ac4c807c54a117942e1058a10db7eea440303bb3246ca309c8460c415b5bb817e0cac758db0c4b49fa25435402e632405cb2d58d9c89f16",
+          "sha256": "9f127cee54478739bc7bb8ea052d84ed236c791bbe0f8604d42809c1355564ee",
+          "sha1": "880745800c25d8c976b016cecda47d061e41b316",
+          "md5": "511388aec5f6a99d734b59e50a7be7fd"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-posthog-iosarm64-0.25.0-sources.jar",
+          "url": "core-remoteconfig-posthog-iosarm64-0.25.0-sources.jar",
+          "size": 5224,
+          "sha512": "f011cc9ab80c3f5c23a15f78d071a90d573211ce6769fb2bcfb256a3f9f17d043ed5bf78bf3aa5eb1a2bcb62a0878cc238ff50b9aa0f3a39e1b3747d137746c0",
+          "sha256": "509e63a4bceee9a217759e53e2f26326772dcdae702e701641f3c99dec7367f2",
+          "sha1": "0869348d3acad764d6bae1b814141aa77a39921d",
+          "md5": "00128daf39b5d3af1a3c976e6fc79a15"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-posthog-iosarm64-0.25.0-metadata.jar",
+          "url": "core-remoteconfig-posthog-iosarm64-0.25.0-metadata.jar",
+          "size": 56266,
+          "sha512": "b83d7bb6b4e35cdec1e02a45bced0d727bbbf9913508d7ae162feb74b6c029cb2c5d4b5e76fe9f890a6a5623b97208602d0963410561ba050b6d6d496c141573",
+          "sha256": "4ee22d4788258cf8e36e381e8db61bb794cad482b5d89b84ba74cc77a75ce9b4",
+          "sha1": "a80dd0c01dce573d0cc15e9b910775462a0eea4d",
+          "md5": "5864131750959a9bc175cfb1990040d4"
+        }
+      ]
+    }
+  ]
+}

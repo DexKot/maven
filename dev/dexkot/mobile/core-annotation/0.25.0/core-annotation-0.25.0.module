@@ -1,0 +1,217 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-annotation",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-annotation-metadata-0.25.0.jar",
+          "url": "core-annotation-0.25.0.jar",
+          "size": 4845,
+          "sha512": "674ae92ed107c10f5550fa5fbee739207ad4e5724de998f095095808fc53c6ac4ff39aeb79413dd9ed9fd166491fa4ebb7c780f6d18472866f556003c897b2e4",
+          "sha256": "8f16e02a75142492c4998a8e81502794de0b3fb18a496b894469e985ac46e30d",
+          "sha1": "f856bbad36aba7bb5bbe206d9e1ad8e385338d25",
+          "md5": "5a646ea45b8a8608eefdd2b82d69b4e9"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-annotation-kotlin-0.25.0-sources.jar",
+          "url": "core-annotation-0.25.0-sources.jar",
+          "size": 3421,
+          "sha512": "d4a0fe87a08492aa7782b988891720240ff4d95d497e7b952b72cc3400e043a08ed60ffd32e3b841a6a83d9658bec7676a58cc97355ab5df2f0c913b1f61ecae",
+          "sha256": "a5a6f44fed26ca24da7e18e0e932831b979dd21bc60de115ee520340cb64ba63",
+          "sha1": "a5cee5928dd72956a7b6c60f21145e3c05e84cec",
+          "md5": "14ab7d440ff6f9aa670c6aab091ed4ff"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-annotation-android/0.25.0/core-annotation-android-0.25.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-annotation-android",
+        "version": "0.25.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-annotation-android/0.25.0/core-annotation-android-0.25.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-annotation-android",
+        "version": "0.25.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-annotation-android/0.25.0/core-annotation-android-0.25.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-annotation-android",
+        "version": "0.25.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-annotation-iosarm64/0.25.0/core-annotation-iosarm64-0.25.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-annotation-iosarm64",
+        "version": "0.25.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-annotation-iosarm64/0.25.0/core-annotation-iosarm64-0.25.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-annotation-iosarm64",
+        "version": "0.25.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-annotation-iosarm64/0.25.0/core-annotation-iosarm64-0.25.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-annotation-iosarm64",
+        "version": "0.25.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-annotation-iossimulatorarm64/0.25.0/core-annotation-iossimulatorarm64-0.25.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-annotation-iossimulatorarm64",
+        "version": "0.25.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-annotation-iossimulatorarm64/0.25.0/core-annotation-iossimulatorarm64-0.25.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-annotation-iossimulatorarm64",
+        "version": "0.25.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-annotation-iossimulatorarm64/0.25.0/core-annotation-iossimulatorarm64-0.25.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-annotation-iossimulatorarm64",
+        "version": "0.25.0"
+      }
+    }
+  ]
+}

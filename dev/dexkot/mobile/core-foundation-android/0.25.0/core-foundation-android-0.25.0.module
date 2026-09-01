@@ -1,0 +1,205 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-foundation/0.25.0/core-foundation-0.25.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-foundation",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-foundation-release.aar",
+          "url": "core-foundation-android-0.25.0.aar",
+          "size": 26837,
+          "sha512": "bc941e7c659b40291bf00879d643aa4bc7721f241853cd5d223027198360c9d8cc448d0f3bb77eed1ed1ec40e20f66f555ebde86865884c1345a92ab781cc04d",
+          "sha256": "1164cf8efe3a3f48407bf93062e7cdce47b694ff154935ff9368c715c38b1554",
+          "sha1": "c1e4cf9be4cd5b896dc2dc8f142e4b941488de44",
+          "md5": "0e40abdf28d2788d855e365977c46c3c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-foundation-release.aar",
+          "url": "core-foundation-android-0.25.0.aar",
+          "size": 26837,
+          "sha512": "bc941e7c659b40291bf00879d643aa4bc7721f241853cd5d223027198360c9d8cc448d0f3bb77eed1ed1ec40e20f66f555ebde86865884c1345a92ab781cc04d",
+          "sha256": "1164cf8efe3a3f48407bf93062e7cdce47b694ff154935ff9368c715c38b1554",
+          "sha1": "c1e4cf9be4cd5b896dc2dc8f142e4b941488de44",
+          "md5": "0e40abdf28d2788d855e365977c46c3c"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-foundation-android-0.25.0-sources.jar",
+          "url": "core-foundation-android-0.25.0-sources.jar",
+          "size": 10958,
+          "sha512": "749e18726f32e2f22c26af53fc031f6c0fef48e1da1527e93ee92ee2c5a3a69d3573be2284ca2afa1f65a4161c6c066691ccb5ffbf84fda0644176c9793f1e8d",
+          "sha256": "40be0e96a9865c7b37ebe156886c59c470c50c908523d09b40b359acabeef739",
+          "sha1": "a86b63129dc93447f9efedfe17e27b5b8a4f3042",
+          "md5": "fc0851bd6861fd4d84adf3f25f422d9d"
+        }
+      ]
+    }
+  ]
+}
