@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-work/0.26.0/core-work-0.26.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-work",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-work-iosArm64Main-0.26.0.klib",
+          "url": "core-work-iosarm64-0.26.0.klib",
+          "size": 59248,
+          "sha512": "59855abc967acdea66001ced04cdbd80ad78fd7c9280a4f89568d6b1e28f440be516969e6d082d999ad4fc23ef9a189e2a5a4ebb92728346a659cb054b5e19ab",
+          "sha256": "88d3868be70e10bb25374eda72c33bc7a165f8d39b217b5e7b637325587b818a",
+          "sha1": "2595dd0c8ef77f50c8ddcc6e8bc46fa8c255751d",
+          "md5": "58909f2f3bcf36e8325a2b5e28b1ac7a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-work-iosarm64-0.26.0-sources.jar",
+          "url": "core-work-iosarm64-0.26.0-sources.jar",
+          "size": 25976,
+          "sha512": "22c5fb54113421684ed0150038bcd931caeb4294bac796ca118c88ade9b53e84b33a5ae89666c9018177fb843eb8052875ba74a7fbfe1333a0ad0e065dd5f3b4",
+          "sha256": "ae5842426c1bc8607192f16aaec09e5220a818af5a74f871a851fbeaac9bd53c",
+          "sha1": "6b5608739049538d939614a8333b168bd12fb839",
+          "md5": "4f819f6ccaebab92c04cab94960f28e0"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-work-iosarm64-0.26.0-metadata.jar",
+          "url": "core-work-iosarm64-0.26.0-metadata.jar",
+          "size": 261,
+          "sha512": "f2069a11c1fa92e48894e84b7a3d66e0b605dba4eeab44734eb6cbc38ceacf46344cbcbd831feb65d095083ab80765d470579775aa76711330949bbc5b4218e0",
+          "sha256": "4438788274992c6e9b2b3f0e0bd71e2c96ab8392d85fc71c1bfad9a4b8cc45b5",
+          "sha1": "3f31a26b24bcc1faa5f29ef47d758e185700a23c",
+          "md5": "7f9c39841df4c86515e6a42ebc549b24"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-permission-di-koin",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-permission-di-koin-0.26.0.aar",
+          "url": "core-permission-di-koin-0.26.0.aar",
+          "size": 5028,
+          "sha512": "cd45974754d4870a608da0449075afdde4da2a9dbe2dd59c82d944c6e06ad1f47f466622240377335dde6442fa6c9ebf951f6b713565b2bf0c17a6cfdcbd97b0",
+          "sha256": "450dc7c6eec3fff296155ead4fb06c6a9ae9dca8283e7aa55ad2a8ce6a3e61e9",
+          "sha1": "c86820093b8690386b1e2c133519e638cb3598ea",
+          "md5": "3e166dde9bae447fc0b50a7cd976ca75"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-permission",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-permission-di-koin-0.26.0.aar",
+          "url": "core-permission-di-koin-0.26.0.aar",
+          "size": 5028,
+          "sha512": "cd45974754d4870a608da0449075afdde4da2a9dbe2dd59c82d944c6e06ad1f47f466622240377335dde6442fa6c9ebf951f6b713565b2bf0c17a6cfdcbd97b0",
+          "sha256": "450dc7c6eec3fff296155ead4fb06c6a9ae9dca8283e7aa55ad2a8ce6a3e61e9",
+          "sha1": "c86820093b8690386b1e2c133519e638cb3598ea",
+          "md5": "3e166dde9bae447fc0b50a7cd976ca75"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-permission-di-koin-0.26.0-sources.jar",
+          "url": "core-permission-di-koin-0.26.0-sources.jar",
+          "size": 1954,
+          "sha512": "251fc62af9e1ece5cf134da524d6a4d7705c0ea8f6fa469ab88f766c63b727c67fdb233f541c746f84535727d37e51f81e2a7f121780d06b2ff5f0da8838af7d",
+          "sha256": "bb2931747319388936c3d2db06b63c7c9b09a85c204e8928a349ec6759b21e66",
+          "sha1": "66e66c4ee2abbfeac8a4a9913777addb846680c9",
+          "md5": "c9cec8f6a5e45a6405eaae029f5659ef"
+        }
+      ]
+    }
+  ]
+}

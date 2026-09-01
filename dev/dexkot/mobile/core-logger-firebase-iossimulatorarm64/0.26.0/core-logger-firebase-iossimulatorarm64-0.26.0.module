@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-logger-firebase/0.26.0/core-logger-firebase-0.26.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger-firebase",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-firebase-iosSimulatorArm64Main-0.26.0.klib",
+          "url": "core-logger-firebase-iossimulatorarm64-0.26.0.klib",
+          "size": 13791,
+          "sha512": "aea679944417b4f73d68f0022c653995c0922a4433c789b4b4d64fc47280f9954d5a2f2150baa1121f9b9b01b74c89a88d23e9175a43e95ee126ee49e2994047",
+          "sha256": "b1aba360e3fe26b41a79accbb27ae8b4999951ac3ba890f49d5b324771eb1d81",
+          "sha1": "2525905a085df74bac1099b335eef7763c117cdf",
+          "md5": "11e1787c3eb8b6cc7075defc78b9d9eb"
+        },
+        {
+          "name": "core-logger-firebase-iosSimulatorArm64Cinterop-FirebaseAnalyticsMain-0.26.0.klib",
+          "url": "core-logger-firebase-iossimulatorarm64-0.26.0-cinterop-FirebaseAnalytics.klib",
+          "size": 27805,
+          "sha512": "a4220e8bbb63bb8c9fe37091419819b3f31044ac9fba89fa5d3f23c317a1a073b4fc687eb1b197b438ad0854a1ffc36a92ca3f22f2273cae398eeda6f071cf57",
+          "sha256": "97fc3163680a7909c93d2528e421bd070c1823d6c297750d712df3787688c03d",
+          "sha1": "75bbd67bd9970452b4111c517c10754808b4f029",
+          "md5": "9b8c93d169c5774fbddbf8679fec19db"
+        },
+        {
+          "name": "core-logger-firebase-iosSimulatorArm64Cinterop-FirebaseCrashlyticsMain-0.26.0.klib",
+          "url": "core-logger-firebase-iossimulatorarm64-0.26.0-cinterop-FirebaseCrashlytics.klib",
+          "size": 12235,
+          "sha512": "aee6ad6cb93fc4c6db6604eae4ca63ab152257b5c1a948ff8edaa087d0623e7dc36516db0c3908e21d1f625269b6a5b870f3ba8fc03de2cec08e522bcbb34091",
+          "sha256": "549c963ee737234906881440b32b325543b61a53f6451b7147c167d07bec1d83",
+          "sha1": "cda4fbcdaa80d9a4df4956a5b6d606fc6aece5c3",
+          "md5": "972e60dc79fab67fc0b0b922f71ad1ac"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-logger-firebase-iossimulatorarm64-0.26.0-sources.jar",
+          "url": "core-logger-firebase-iossimulatorarm64-0.26.0-sources.jar",
+          "size": 4059,
+          "sha512": "32b896ad62818370aa2a733e19a8e4273d9243aeafd45138e7f2cc9427a87b1d7a9232c79838a0c9cf76621aebc252d565b76f72db5d97dc64a60a8cc89ef151",
+          "sha256": "848e11285e571da5438bafa6851731ece4c941c552dc536ef9f6dca931196ff1",
+          "sha1": "73b6212fd8ac3bea90f77fed0a00f3af5f04a7e9",
+          "md5": "932852f3c06536b53e0256316ceff348"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-firebase-iossimulatorarm64-0.26.0-metadata.jar",
+          "url": "core-logger-firebase-iossimulatorarm64-0.26.0-metadata.jar",
+          "size": 51630,
+          "sha512": "b2f0d641cc8bad1c416151c9633f2f606c896a3a35ef93ec5e5b0d19f6867ab070eb152660829be5caad403275b65cee62db528018dd241abcfc8e2958274f5d",
+          "sha256": "58668e6bfd964e11f46f27fa3f633d97ca9ff208fdeee369080e53036af234aa",
+          "sha1": "bec8c796b87801352365a80cfb48c07a7946f344",
+          "md5": "1ce7cc8015ab42703cf117e04361c2b3"
+        }
+      ]
+    }
+  ]
+}

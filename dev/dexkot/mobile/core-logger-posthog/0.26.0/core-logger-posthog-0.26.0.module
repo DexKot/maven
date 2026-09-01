@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger-posthog",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-posthog-metadata-0.26.0.jar",
+          "url": "core-logger-posthog-0.26.0.jar",
+          "size": 3315,
+          "sha512": "558d034c28bf25adc5f35b7d0c1d2a3b9924674a157d0fb5511ec626727b3cf625b923eccfb7799a6d3566dd4a84ef796d89aafe98504498603cd1e3b5458f41",
+          "sha256": "fce47fb96f63f4c652e795063cf46283a7f59c006ed3beaedec7c7f1b499bf1a",
+          "sha1": "1d8061c50befd153f2257cbf07efb2b79c607e2b",
+          "md5": "dbfd75a7cd2aa26c8b1daa5f8b4e30f7"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-logger-posthog-kotlin-0.26.0-sources.jar",
+          "url": "core-logger-posthog-0.26.0-sources.jar",
+          "size": 4829,
+          "sha512": "988ea5c885fec5aa2277388106850ba12129eef4abec3b058754d2398da90d6c5d8e246c26075097b28a25945e3412b88f9f28fcb82cc763cfa1507bb7b063a7",
+          "sha256": "415d4650aca17b6ba1bb8c4cd527e8553796205df2a25fddf7ddd4644ca95d2e",
+          "sha1": "2f4976d94ae0c5f159c923f27081ea6cb8298cdf",
+          "md5": "250e515186543606ba0e9c901fda9655"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-logger-posthog-android/0.26.0/core-logger-posthog-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-logger-posthog-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-logger-posthog-android/0.26.0/core-logger-posthog-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-logger-posthog-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-logger-posthog-android/0.26.0/core-logger-posthog-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-logger-posthog-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-logger-posthog-iosarm64/0.26.0/core-logger-posthog-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-logger-posthog-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-logger-posthog-iosarm64/0.26.0/core-logger-posthog-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-logger-posthog-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-logger-posthog-iosarm64/0.26.0/core-logger-posthog-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-logger-posthog-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-logger-posthog-iossimulatorarm64/0.26.0/core-logger-posthog-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-logger-posthog-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-logger-posthog-iossimulatorarm64/0.26.0/core-logger-posthog-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-logger-posthog-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-logger-posthog-iossimulatorarm64/0.26.0/core-logger-posthog-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-logger-posthog-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    }
+  ]
+}

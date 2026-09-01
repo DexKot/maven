@@ -1,0 +1,238 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig-posthog",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-posthog-metadata-0.26.0.jar",
+          "url": "core-remoteconfig-posthog-0.26.0.jar",
+          "size": 3717,
+          "sha512": "ddafba14befbed35a2c8920eb3e9bc19e6f18b435838e86496546686d6e09bf58a53edaf8eac6cb0f413dc5b671930406b91d04c84eccc5e7b00f89f7f37e274",
+          "sha256": "96e85b7ac56c4b6b5f723d1eb75c94dcdf427e418239854f846c0294b3ef0254",
+          "sha1": "0bbb8fdcd97d477e72d4afeffe6c2457821e5402",
+          "md5": "ccd472203f16f549b234f3a67a43d90f"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-posthog-kotlin-0.26.0-sources.jar",
+          "url": "core-remoteconfig-posthog-0.26.0-sources.jar",
+          "size": 5224,
+          "sha512": "68cf15cb7eff57061eeae3ed039b75387f4cae292645196353e5954e4066bcff5fbe881f7522de9109ad18e5570fd55b25c5db668823957f0cb0571f84624d8c",
+          "sha256": "e2ec8150b4e18429e3d17d3ff4d59cf7316e1c6964a31711f7064571b8f440a0",
+          "sha1": "8978ebcffa9c9b0fcb8f8e6f96417079ecc57d58",
+          "md5": "3939358f2dbd6b7c6ca1c830b5b42baf"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-posthog-android/0.26.0/core-remoteconfig-posthog-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-posthog-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-posthog-android/0.26.0/core-remoteconfig-posthog-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-posthog-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-posthog-android/0.26.0/core-remoteconfig-posthog-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-posthog-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-posthog-iosarm64/0.26.0/core-remoteconfig-posthog-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-posthog-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-posthog-iosarm64/0.26.0/core-remoteconfig-posthog-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-posthog-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-posthog-iosarm64/0.26.0/core-remoteconfig-posthog-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-posthog-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-posthog-iossimulatorarm64/0.26.0/core-remoteconfig-posthog-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-posthog-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-posthog-iossimulatorarm64/0.26.0/core-remoteconfig-posthog-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-posthog-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-posthog-iossimulatorarm64/0.26.0/core-remoteconfig-posthog-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-posthog-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    }
+  ]
+}

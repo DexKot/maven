@@ -1,0 +1,238 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-work-di-koin",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-work",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-work-di-koin-metadata-0.26.0.jar",
+          "url": "core-work-di-koin-0.26.0.jar",
+          "size": 2899,
+          "sha512": "023c7f7d37ed008048ea900c2088789d83e607255d097bfd9b8d76d668693506162d82de60f3981e8f6ca59b3dd46ce90a950f5d441b365f53a1ec717aea7ce2",
+          "sha256": "dad916fd635d21d7ee31ef97357a4e61ab03e6e0a2a5c4c983a1e39683bcab10",
+          "sha1": "df1d68af9de0a9c9ad413695f2664d8af45b4e42",
+          "md5": "e4be89dd867f76a9d0a94024314a66ba"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-work-di-koin-kotlin-0.26.0-sources.jar",
+          "url": "core-work-di-koin-0.26.0-sources.jar",
+          "size": 2943,
+          "sha512": "0e8e7da407e89b7a078da5644eb5f5b46d85ff26d924a3ebb534b0f662ca7ac86e60cf635f2df01d4f383863d25b4c52b34b34fae71aa15100ca1bfb61545bd1",
+          "sha256": "4138896f3defaf51479ba613096d32b8672446ae9ece852709e77641383a8ee0",
+          "sha1": "a98b1d9be11cd2d2bb5f70c2fa1db3606b7c21d2",
+          "md5": "3e3cea31f117e115eff4a6643b4b6a67"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-work-di-koin-android/0.26.0/core-work-di-koin-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-di-koin-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-work-di-koin-android/0.26.0/core-work-di-koin-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-di-koin-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-work-di-koin-android/0.26.0/core-work-di-koin-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-di-koin-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-work-di-koin-iosarm64/0.26.0/core-work-di-koin-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-di-koin-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-work-di-koin-iosarm64/0.26.0/core-work-di-koin-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-di-koin-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-work-di-koin-iosarm64/0.26.0/core-work-di-koin-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-di-koin-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-work-di-koin-iossimulatorarm64/0.26.0/core-work-di-koin-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-di-koin-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-work-di-koin-iossimulatorarm64/0.26.0/core-work-di-koin-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-di-koin-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-work-di-koin-iossimulatorarm64/0.26.0/core-work-di-koin-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-work-di-koin-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    }
+  ]
+}

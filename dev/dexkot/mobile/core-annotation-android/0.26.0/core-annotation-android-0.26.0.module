@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-annotation/0.26.0/core-annotation-0.26.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-annotation",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-annotation-release.aar",
+          "url": "core-annotation-android-0.26.0.aar",
+          "size": 4056,
+          "sha512": "60b9157b21932f680238e479dc320b798fcc334fa5bd0e0cd279cdf946321f3cec0b03c42d645a257c5dec617d00247087ee7a7cc5faabc7588b163ffa61a705",
+          "sha256": "144a7bc96f7994631e7563ce1d5b684593bb34acc54141776539ee4bac88596a",
+          "sha1": "0ab52ffca51787dde0678b1229c626145bd8fa16",
+          "md5": "c3c550773f34429ccddbbd0e572d1a83"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-annotation-release.aar",
+          "url": "core-annotation-android-0.26.0.aar",
+          "size": 4056,
+          "sha512": "60b9157b21932f680238e479dc320b798fcc334fa5bd0e0cd279cdf946321f3cec0b03c42d645a257c5dec617d00247087ee7a7cc5faabc7588b163ffa61a705",
+          "sha256": "144a7bc96f7994631e7563ce1d5b684593bb34acc54141776539ee4bac88596a",
+          "sha1": "0ab52ffca51787dde0678b1229c626145bd8fa16",
+          "md5": "c3c550773f34429ccddbbd0e572d1a83"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-annotation-android-0.26.0-sources.jar",
+          "url": "core-annotation-android-0.26.0-sources.jar",
+          "size": 3421,
+          "sha512": "d4a0fe87a08492aa7782b988891720240ff4d95d497e7b952b72cc3400e043a08ed60ffd32e3b841a6a83d9658bec7676a58cc97355ab5df2f0c913b1f61ecae",
+          "sha256": "a5a6f44fed26ca24da7e18e0e932831b979dd21bc60de115ee520340cb64ba63",
+          "sha1": "a5cee5928dd72956a7b6c60f21145e3c05e84cec",
+          "md5": "14ab7d440ff6f9aa670c6aab091ed4ff"
+        }
+      ]
+    }
+  ]
+}

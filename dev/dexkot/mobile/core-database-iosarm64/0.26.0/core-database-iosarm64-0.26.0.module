@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-database/0.26.0/core-database-0.26.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-database",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-iosArm64Main-0.26.0.klib",
+          "url": "core-database-iosarm64-0.26.0.klib",
+          "size": 5920,
+          "sha512": "b8ff8d270ce2935b47e13a7328b4e7634f30a6da29a5476d681696d450e55ec40e5e741fd9694768220f0c52251c28b87ef59a0a9fff9ba51c9460ebfbd7ced2",
+          "sha256": "a66f3d82f2a8d714101be480216691b1725c935adfb4b70b74f36969494cd689",
+          "sha1": "1e32f449da8b13a303dde7efb98043ea86b9cb37",
+          "md5": "0663c27e972c147460fb2e4a1646ae61"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-database-iosarm64-0.26.0-sources.jar",
+          "url": "core-database-iosarm64-0.26.0-sources.jar",
+          "size": 2104,
+          "sha512": "4490c10c602579a4558dadd16286df60598548bfc3080e3219a526e37db130140a319a4dda017d6124ec7f22799ce71059571723fc8fb30790f94f1f874e9f7d",
+          "sha256": "aba816c8af3c5cd99718856e62b068ba054b269470163cda1b650ff6528fa9b3",
+          "sha1": "d73da313d43e8ad8ab616ebec2906b0312caf837",
+          "md5": "fcf5ff75f6c30576b4acf9df13f1e998"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-database-iosarm64-0.26.0-metadata.jar",
+          "url": "core-database-iosarm64-0.26.0-metadata.jar",
+          "size": 261,
+          "sha512": "b2c2d4948b0b1a17d1579bcbf6f4159b82a69ff1a06bae88a2b701c093b5c8bfac979eb9c3ff2d52a4c8d2b685ea1f762db2c27e3b79270d9a9c76161363005f",
+          "sha256": "a584843b6cbc94a7f56b742bac5ef817987e64836948f55ffda8155819d34e22",
+          "sha1": "683a893e4a6eb80dd88cfb930f76378e13443af1",
+          "md5": "27b462a0f36be11516814b74d5ba736b"
+        }
+      ]
+    }
+  ]
+}

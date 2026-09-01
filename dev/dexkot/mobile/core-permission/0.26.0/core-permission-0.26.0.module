@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-permission",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-permission-0.26.0.aar",
+          "url": "core-permission-0.26.0.aar",
+          "size": 28054,
+          "sha512": "6cf691eab9ec3321794791018780434fc5d50704c4e1c0efd47757f59084a91cdc70238d26ce953807a8a0c0f4bb66d8a6ae660dc2d24b2b9d4bb8b62e677f7f",
+          "sha256": "03b6e0e4fa902fe4a9189707f7d356369f978b84b6243032c618bc7d2f0f0412",
+          "sha1": "dda7ca4262e93717117bcf9524bb2b6e7d884d20",
+          "md5": "35e03b8670e9fdf1e72103b20de773d9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.12.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-permission-0.26.0.aar",
+          "url": "core-permission-0.26.0.aar",
+          "size": 28054,
+          "sha512": "6cf691eab9ec3321794791018780434fc5d50704c4e1c0efd47757f59084a91cdc70238d26ce953807a8a0c0f4bb66d8a6ae660dc2d24b2b9d4bb8b62e677f7f",
+          "sha256": "03b6e0e4fa902fe4a9189707f7d356369f978b84b6243032c618bc7d2f0f0412",
+          "sha1": "dda7ca4262e93717117bcf9524bb2b6e7d884d20",
+          "md5": "35e03b8670e9fdf1e72103b20de773d9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-permission-0.26.0-sources.jar",
+          "url": "core-permission-0.26.0-sources.jar",
+          "size": 9495,
+          "sha512": "2f01f385603ac9b30bff78616cb8f8095cd15cea7466903dd5129268825cf146a5cb7e17d6002f495e8680a86da5f3e25158b2cc0628d7991436ee1bf97fba62",
+          "sha256": "05d1a947c1423c4d13f24a100718530b4789fa5e012ec276ee262a9aae396985",
+          "sha1": "68360a6bd2cc10e4690376d37b2d90826c646950",
+          "md5": "341ab3bde9beaea1b85ad544524d71b1"
+        }
+      ]
+    }
+  ]
+}

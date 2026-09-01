@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-remoteconfig-firebase/0.26.0/core-remoteconfig-firebase-0.26.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig-firebase",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-iosSimulatorArm64Main-0.26.0.klib",
+          "url": "core-remoteconfig-firebase-iossimulatorarm64-0.26.0.klib",
+          "size": 18390,
+          "sha512": "7a89fe10212534cf54fd21d79d41ca8b7bb0a4d071f7f5886c8e791ad88eadf09f76ac6ad1459aec36c78b19cd13812cae1555245bf0989f25e457268d44b8fd",
+          "sha256": "5ffe5ffff003bbf75b9fc8d82b1c336e82ea16dcd9d6e7064f10569bad649669",
+          "sha1": "c0442aac9e74ad6c5172f163fb94fde906dd4779",
+          "md5": "95d8305bb7649d6422107729723ab280"
+        },
+        {
+          "name": "core-remoteconfig-firebase-iosSimulatorArm64Cinterop-FirebaseRemoteConfigMain-0.26.0.klib",
+          "url": "core-remoteconfig-firebase-iossimulatorarm64-0.26.0-cinterop-FirebaseRemoteConfig.klib",
+          "size": 12484,
+          "sha512": "2998e6a74a1de408da17d57337dc102f4d820df97a45e75dbd056e377c5a39286cc88ce264f42a693f66f89cfffdaabd0367633194a8bd5efdfc18f11a070a51",
+          "sha256": "88b7163d4eb9ea9aa8ddd16d3d34bccadec54e5e011f714a1aecc846279536b5",
+          "sha1": "4fdc2f001a9ac0adf7114269b6ac759093ec452b",
+          "md5": "6633ab7efce6066cc0faf1f17e11f928"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-iossimulatorarm64-0.26.0-sources.jar",
+          "url": "core-remoteconfig-firebase-iossimulatorarm64-0.26.0-sources.jar",
+          "size": 5635,
+          "sha512": "20ad216fbf8d320f40eaac4773d3c33f098b3331fbb15f29eae65de8cf3e13cb772e4365f6a343dcc05f607e6b2864ef137044aa2df0eaaf5bfd3404fbfb645f",
+          "sha256": "1040c379867a5ed32cef5989d3a0c33ade2e60988fa25ed5fe02272c1e7c938a",
+          "sha1": "2202c4ce8981f8dfa5fd8bc48f7a17d8a0c2dc05",
+          "md5": "fd855335c96172f3864731e3c147fd7b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-iossimulatorarm64-0.26.0-metadata.jar",
+          "url": "core-remoteconfig-firebase-iossimulatorarm64-0.26.0-metadata.jar",
+          "size": 29620,
+          "sha512": "db3af6e91a4596d8c14f4481436cd627269fd5b20720644d7971d060aece1948d0c6a60ad01b1f405f2027f21ada59c74fe398350430fa25847fae920283dee5",
+          "sha256": "2dbe4ef7dcddb8adc77da95c328ac41d69ab7dc2fb3d2580646b39c888f3b111",
+          "sha1": "12f18d10e07120a4ca1e641e58ad799b24b00f90",
+          "md5": "8dda958c72dd27cae4a258d3510eb4e2"
+        }
+      ]
+    }
+  ]
+}

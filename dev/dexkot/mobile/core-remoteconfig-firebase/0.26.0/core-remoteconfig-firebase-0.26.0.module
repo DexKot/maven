@@ -1,0 +1,238 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig-firebase",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-metadata-0.26.0.jar",
+          "url": "core-remoteconfig-firebase-0.26.0.jar",
+          "size": 3874,
+          "sha512": "a74ae5b466efbde82f9f9f5bb83a2290d104bbde7e71ea2bad99f0ecce49a8b1e3123490603a2af291e698d69623cfb657cf9d60a04d4c3f0c8bde3234dce446",
+          "sha256": "b2b8874e3587a2596a555a003346c54fac71a3b0c18b9eef88829cb90b867552",
+          "sha1": "82e6f67a5fa4a503ab3168a3440148bc9d70d11b",
+          "md5": "ce1a719c5382135c9982a5132e33a54d"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-firebase-kotlin-0.26.0-sources.jar",
+          "url": "core-remoteconfig-firebase-0.26.0-sources.jar",
+          "size": 5635,
+          "sha512": "5db7df3f0eb5cc666de8156017a824bf2c270720f6af761ddbe69c76b9f5a4dcf537827af6015c06404d62e0c66b97abed161dc9761153a1bdd7252fd4fbac12",
+          "sha256": "26f5e4ff9ac369446c2e265ae55c6492422f6af2edb41a73381d7ecc52774cb7",
+          "sha1": "3efc4a067c288408af0634eb1fa565f626c96120",
+          "md5": "a7c788a174baf7a2bfe26fa29fb225b1"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-firebase-android/0.26.0/core-remoteconfig-firebase-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-firebase-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-firebase-android/0.26.0/core-remoteconfig-firebase-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-firebase-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-firebase-android/0.26.0/core-remoteconfig-firebase-android-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-firebase-android",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-firebase-iosarm64/0.26.0/core-remoteconfig-firebase-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-firebase-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-firebase-iosarm64/0.26.0/core-remoteconfig-firebase-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-firebase-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-firebase-iosarm64/0.26.0/core-remoteconfig-firebase-iosarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-firebase-iosarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-firebase-iossimulatorarm64/0.26.0/core-remoteconfig-firebase-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-firebase-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-firebase-iossimulatorarm64/0.26.0/core-remoteconfig-firebase-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-firebase-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-firebase-iossimulatorarm64/0.26.0/core-remoteconfig-firebase-iossimulatorarm64-0.26.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-firebase-iossimulatorarm64",
+        "version": "0.26.0"
+      }
+    }
+  ]
+}

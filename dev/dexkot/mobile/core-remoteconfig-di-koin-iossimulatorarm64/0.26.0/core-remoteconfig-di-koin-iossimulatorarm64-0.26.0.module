@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-remoteconfig-di-koin/0.26.0/core-remoteconfig-di-koin-0.26.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig-di-koin",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig-firebase",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig-posthog",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-di-koin-iosSimulatorArm64Main-0.26.0.klib",
+          "url": "core-remoteconfig-di-koin-iossimulatorarm64-0.26.0.klib",
+          "size": 6729,
+          "sha512": "3deb896bc86074e2bc0775e0b6861f2d688e67035708e11a25662a6ecd10e3020062b732a6c41b1e11b36518cf530e9c47541c4b70aabd352e48d4850d316c71",
+          "sha256": "82ff83cde2de02c4ab71eab986080aa7590a5cb1c7f9493487844036f8190a8a",
+          "sha1": "2f77fcb5643acd24646e0ea8620b90a9522b5efe",
+          "md5": "8170dbbd53629748f207855b9d4b5b9f"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-di-koin-iossimulatorarm64-0.26.0-sources.jar",
+          "url": "core-remoteconfig-di-koin-iossimulatorarm64-0.26.0-sources.jar",
+          "size": 2564,
+          "sha512": "1e9ee83e376055496dc0723d343c80e299b8b14e164121c04d348711b42a766f88064a15f08c0794bcb91c7fb8e0f18e1d83b0c62d078d60869ebdd3c26e7071",
+          "sha256": "2c7985abe2b01d903a3bd1464faa08fac264b48f8303cc89ba77a99a6bb87b19",
+          "sha1": "82f93a0a184c968826abbec900f8488f9cf6bd42",
+          "md5": "6067a3ad343bc40975d5eff10fd5be7a"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig-firebase",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig-posthog",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-di-koin-iossimulatorarm64-0.26.0-metadata.jar",
+          "url": "core-remoteconfig-di-koin-iossimulatorarm64-0.26.0-metadata.jar",
+          "size": 261,
+          "sha512": "325b2f9db35c766683727b9b5f830b2a5031c195b318214c0a63570dd610e660bc3996857de4641aee64c8f01a4e864083077925a03a7e649c9d614e9b3d980d",
+          "sha256": "6490ded11d97fb892ab2ce3c6d8085d1fa6d6fdc74e4cc07b4a6615d2296fd51",
+          "sha1": "2419f85134033c94253c1708a17332e3458e1e15",
+          "md5": "806b44577100c2e2375b94d3d9b4929e"
+        }
+      ]
+    }
+  ]
+}

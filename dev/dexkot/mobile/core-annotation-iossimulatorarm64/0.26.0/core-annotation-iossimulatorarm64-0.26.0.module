@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-annotation/0.26.0/core-annotation-0.26.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-annotation",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-annotation-iosSimulatorArm64Main-0.26.0.klib",
+          "url": "core-annotation-iossimulatorarm64-0.26.0.klib",
+          "size": 9054,
+          "sha512": "37cab80edafe45ef267299dae7d39e862062aa217057f8b46d7d888021b315ce938ee4cf6dc54bd37a226f652b22e234e9e2f088cc5694fb17c9cb061ae993dd",
+          "sha256": "d7e2618f3819c84d0776e0faa200e60efc2a874ef0efd6069714750444a7706b",
+          "sha1": "79eb4efd5039b9e9bf27a8e54ce0494e3d25fbb5",
+          "md5": "022fa2f8a32e841238a913ce527123f5"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-annotation-iossimulatorarm64-0.26.0-sources.jar",
+          "url": "core-annotation-iossimulatorarm64-0.26.0-sources.jar",
+          "size": 3421,
+          "sha512": "d4a0fe87a08492aa7782b988891720240ff4d95d497e7b952b72cc3400e043a08ed60ffd32e3b841a6a83d9658bec7676a58cc97355ab5df2f0c913b1f61ecae",
+          "sha256": "a5a6f44fed26ca24da7e18e0e932831b979dd21bc60de115ee520340cb64ba63",
+          "sha1": "a5cee5928dd72956a7b6c60f21145e3c05e84cec",
+          "md5": "14ab7d440ff6f9aa670c6aab091ed4ff"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-annotation-iossimulatorarm64-0.26.0-metadata.jar",
+          "url": "core-annotation-iossimulatorarm64-0.26.0-metadata.jar",
+          "size": 261,
+          "sha512": "564dec987c683d756f3e4111789d4c704f50f1987aae50d451236b01d33488e5a06f03d453a93f992265368b1786f23d91520ab2adfff1a17e6804c87b802489",
+          "sha256": "a20f7a021fdf8fb392d67c18081cde0c053065167a7f132ed2001c83e44ce45b",
+          "sha1": "d8b44145d1cc885b8566ba6668b99893fcb77292",
+          "md5": "97f31994da23c82c5a50dc06f23aa473"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-logger-di-koin/0.26.0/core-logger-di-koin-0.26.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger-di-koin",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-firebase",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-posthog",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-di-koin-iosArm64Main-0.26.0.klib",
+          "url": "core-logger-di-koin-iosarm64-0.26.0.klib",
+          "size": 6210,
+          "sha512": "664928a4cab1df27951cb77f220218f45d1dee8371066b366dc5a9c1d502b611606b143bd75499be3133b948e116453c291de5dae4275e2226888bef93fc8825",
+          "sha256": "d277c9e4f3da4bb32d3dc2070e840ed3d420d6e6f961d93ad79b46364e4314dd",
+          "sha1": "7601bb85804e811bb402cd9c19a7f4ca4d06fa32",
+          "md5": "439641505a5d18c8415c4d6e1293f734"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-logger-di-koin-iosarm64-0.26.0-sources.jar",
+          "url": "core-logger-di-koin-iosarm64-0.26.0-sources.jar",
+          "size": 2287,
+          "sha512": "1338703693fb1a6c4301e021619ed48199d94a4114428fab4470d01bfea4351ae46036142ce404e721b70a99afc9d4d2db6ed44d9edd3e736d3740f09d3c7bae",
+          "sha256": "fcd782b1048fd9f658e704c1fbb5c411307a91e3f8c70cb6acbc0e1bac4dc976",
+          "sha1": "13a4625d6400e608d13eac58cfd4f69664a8ef3e",
+          "md5": "91c59ea784d016b7d08c04368268833c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-firebase",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-posthog",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-di-koin-iosarm64-0.26.0-metadata.jar",
+          "url": "core-logger-di-koin-iosarm64-0.26.0-metadata.jar",
+          "size": 261,
+          "sha512": "bc2b964aa62e4712177d373316c76767d7f157b603e53cc714228d2b30fe7f7d1962ff8ee93d07eeeea43718e036fcdea84afa25f92e9d90bd52f803008bd951",
+          "sha256": "983e00533d1c9725733dce0fd14baf4ad2149feff588de94d1d3013aa6364cb7",
+          "sha1": "e86c142b44304b712b7a7319d853acbe3c9e9a25",
+          "md5": "f4abc9b4a8a65b70cac191655384d122"
+        }
+      ]
+    }
+  ]
+}

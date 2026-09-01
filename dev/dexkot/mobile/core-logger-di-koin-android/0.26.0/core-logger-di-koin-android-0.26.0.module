@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-logger-di-koin/0.26.0/core-logger-di-koin-0.26.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger-di-koin",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-firebase",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-posthog",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-di-koin-release.aar",
+          "url": "core-logger-di-koin-android-0.26.0.aar",
+          "size": 5664,
+          "sha512": "1e3436ef3184134762abff2f9385caba4b865a369fa1731793031614997ef4d2f3e1179627fa9275a694a441e9251cb08350c648597042dedab2056e5ab07462",
+          "sha256": "e8e919a14441e6efa303acd98b1bd994ede02a151ca15e3dc48bcee4205e87ee",
+          "sha1": "3f24973d1647916da71c71f4e2e0454651eb9fd4",
+          "md5": "62c2b6e9fbd21cf1801b68f7a2b6f2e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.26.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-firebase",
+          "version": {
+            "requires": "0.26.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger-posthog",
+          "version": {
+            "requires": "0.26.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-di-koin-release.aar",
+          "url": "core-logger-di-koin-android-0.26.0.aar",
+          "size": 5664,
+          "sha512": "1e3436ef3184134762abff2f9385caba4b865a369fa1731793031614997ef4d2f3e1179627fa9275a694a441e9251cb08350c648597042dedab2056e5ab07462",
+          "sha256": "e8e919a14441e6efa303acd98b1bd994ede02a151ca15e3dc48bcee4205e87ee",
+          "sha1": "3f24973d1647916da71c71f4e2e0454651eb9fd4",
+          "md5": "62c2b6e9fbd21cf1801b68f7a2b6f2e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-logger-di-koin-android-0.26.0-sources.jar",
+          "url": "core-logger-di-koin-android-0.26.0-sources.jar",
+          "size": 2287,
+          "sha512": "1338703693fb1a6c4301e021619ed48199d94a4114428fab4470d01bfea4351ae46036142ce404e721b70a99afc9d4d2db6ed44d9edd3e736d3740f09d3c7bae",
+          "sha256": "fcd782b1048fd9f658e704c1fbb5c411307a91e3f8c70cb6acbc0e1bac4dc976",
+          "sha1": "13a4625d6400e608d13eac58cfd4f69664a8ef3e",
+          "md5": "91c59ea784d016b7d08c04368268833c"
+        }
+      ]
+    }
+  ]
+}
