@@ -17,20 +17,13 @@ No es un mirror ni un proxy: los artefactos viven versionados en este repo, bajo
 ```kotlin
 // settings.gradle.kts
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        maven("https://dexkot.github.io/maven") {
-            content { includeGroup("dev.dexkot.mobile") }
-        }
+        maven { url = uri("https://dexkot.github.io/maven") }
     }
 }
 ```
-
-El bloque `content { includeGroup(...) }` no es obligatorio, pero conviene: sin él Gradle
-consulta también este repo para cada dependencia del proyecto (Compose, Koin, AndroidX…) antes
-de caer en `google()`/`mavenCentral()`, lo que agrega un round-trip HTTP por artefacto.
 
 `google()` y `mavenCentral()` siguen siendo necesarios: acá solo viven los artefactos
 `dev.dexkot.mobile`, y sus dependencias transitivas (Kotlin, coroutines, Compose, SQLDelight,
@@ -44,10 +37,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url 'https://dexkot.github.io/maven'
-            content { includeGroup 'dev.dexkot.mobile' }
-        }
+        maven { url 'https://dexkot.github.io/maven' }
     }
 }
 ```
@@ -191,8 +181,9 @@ publicada. Si una release sale mal, se publica la siguiente (`X.Y.Z+1`).
 ## Troubleshooting
 
 **`Could not find dev.dexkot.mobile:core-xxx:0.26.0`**
-- Verificá que el repo esté declarado en `settings.gradle.kts` y no solo en el `build.gradle.kts`
-  del módulo: con `RepositoriesMode.FAIL_ON_PROJECT_REPOS`, los repos por proyecto se ignoran.
+- Verificá que el repo esté declarado en `settings.gradle.kts`. Si el proyecto usa
+  `repositoriesMode = FAIL_ON_PROJECT_REPOS` (el default de muchos templates), declararlo en el
+  `build.gradle.kts` del módulo no alcanza.
 - Confirmá que la versión exista en [`artifacts.json`](./artifacts.json) — no todos los módulos
   comparten historial de versiones (los KMP con targets iOS arrancan en `0.24.1`).
 - Si acabás de taguear, esperá a que termine el deploy de Pages.
