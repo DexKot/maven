@@ -18,16 +18,14 @@ No es un mirror ni un proxy: los artefactos viven versionados en este repo, bajo
 // settings.gradle.kts
 dependencyResolutionManagement {
     repositories {
-        google()
-        mavenCentral()
         maven { url = uri("https://dexkot.github.io/maven") }
     }
 }
 ```
 
-`google()` y `mavenCentral()` siguen siendo necesarios: acá solo viven los artefactos
-`dev.dexkot.mobile`, y sus dependencias transitivas (Kotlin, coroutines, Compose, SQLDelight,
-multiplatform-settings, Koin) se resuelven desde los repos públicos.
+Se agrega a los repositorios que el proyecto ya tenga (`google()`, `mavenCentral()`): acá solo
+viven los artefactos `dev.dexkot.mobile`, y sus dependencias transitivas (Kotlin, coroutines,
+Compose, SQLDelight, multiplatform-settings, Koin) se resuelven desde los repos públicos.
 
 ### Gradle (Groovy DSL)
 
@@ -35,8 +33,6 @@ multiplatform-settings, Koin) se resuelven desde los repos públicos.
 // settings.gradle
 dependencyResolutionManagement {
     repositories {
-        google()
-        mavenCentral()
         maven { url 'https://dexkot.github.io/maven' }
     }
 }
