@@ -1,0 +1,245 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig",
+    "version": "0.27.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-metadata-0.27.0.jar",
+          "url": "core-remoteconfig-0.27.0.jar",
+          "size": 7112,
+          "sha512": "6fa73c7c9be96b70a2dad136d327442bd83517b4b6df5f5a87d79c8d02a457f459f89266a6b51c0f93c11a02f7405a23ba4c0e2091024ca0c5469da9ac1dbf34",
+          "sha256": "b9e2ac87ae13d8c28842585f72d08ecbec97628bfead647e68adaad2ffebf182",
+          "sha1": "f0826c20d3be76d499bcf1d36e9ebfc03c1adbcf",
+          "md5": "17d35aa5095ef24ebf7c95faf3256bef"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-kotlin-0.27.0-sources.jar",
+          "url": "core-remoteconfig-0.27.0-sources.jar",
+          "size": 6158,
+          "sha512": "5cc7a431be51a3ca4890d5426fa79db8156f7ca702e6a96729caf106048d29c88ac2a565fbb77e3ab12e30352d961a1e5919770ab027709254c03795a0999b8b",
+          "sha256": "6b5d4855123e2c062240211f5ce45a94c1894066ffbcab6ce6297aa38da87796",
+          "sha1": "323cea1e0eb45d376631b852c5d04be2c2b6eb43",
+          "md5": "9f2b710637a33ddbd8445c996cb19ee3"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-android/0.27.0/core-remoteconfig-android-0.27.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-android",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-android/0.27.0/core-remoteconfig-android-0.27.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-android",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-android/0.27.0/core-remoteconfig-android-0.27.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-android",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-iosarm64/0.27.0/core-remoteconfig-iosarm64-0.27.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-iosarm64",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-iosarm64/0.27.0/core-remoteconfig-iosarm64-0.27.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-iosarm64",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-iosarm64/0.27.0/core-remoteconfig-iosarm64-0.27.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-iosarm64",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-iossimulatorarm64/0.27.0/core-remoteconfig-iossimulatorarm64-0.27.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-iossimulatorarm64",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-iossimulatorarm64/0.27.0/core-remoteconfig-iossimulatorarm64-0.27.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-iossimulatorarm64",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-remoteconfig-iossimulatorarm64/0.27.0/core-remoteconfig-iossimulatorarm64-0.27.0.module",
+        "group": "dev.dexkot.mobile",
+        "module": "core-remoteconfig-iossimulatorarm64",
+        "version": "0.27.0"
+      }
+    }
+  ]
+}

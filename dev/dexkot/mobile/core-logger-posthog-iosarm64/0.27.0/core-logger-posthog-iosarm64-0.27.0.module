@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-logger-posthog/0.27.0/core-logger-posthog-0.27.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-logger-posthog",
+    "version": "0.27.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-posthog-iosArm64Main-0.27.0.klib",
+          "url": "core-logger-posthog-iosarm64-0.27.0.klib",
+          "size": 16108,
+          "sha512": "61fb67e5e0ab99311a1c710d732d82b6acddea2c0353356b2527aa1da1b604f9dd41d045e140568ed34b7021334a7f47e2d316b1644df3227d4317192b87fe3a",
+          "sha256": "75ac8566e7d9323d69ac7310c6e8cc6c88ab67e4b233b81c2bdda964f624ddb3",
+          "sha1": "f0dc168ae0448476d03cae332fcc68c45bd88191",
+          "md5": "ed73e83124edfd04d9d2129b8ee127fb"
+        },
+        {
+          "name": "core-logger-posthog-iosArm64Cinterop-PostHogMain-0.27.0.klib",
+          "url": "core-logger-posthog-iosarm64-0.27.0-cinterop-PostHog.klib",
+          "size": 20932,
+          "sha512": "1d01e8e59688341fea8f4096db142f36115d96f668d0135a0843dd800f31449421b4e224b4a7b001027bb96c8e9379cfe5e8774d0fccafc07912859bdeef9611",
+          "sha256": "1b6ccbc091a7da68cd0795a034e93c5345d7315d21192a963bc3ee67562de72f",
+          "sha1": "edbdd83418aacfe720ecb0abfd5dae3adfdd8c0b",
+          "md5": "ff5b2d24646e3cc941e01d3512493cc2"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-logger-posthog-iosarm64-0.27.0-sources.jar",
+          "url": "core-logger-posthog-iosarm64-0.27.0-sources.jar",
+          "size": 4829,
+          "sha512": "1edd1960e779ecc921a52c9182b0efdbe6b4e1655aaa0afab2efe1547ef045945543105dc42715c85c3fcf8fced5de59f6ebfafb827a0b533777dfde18888014",
+          "sha256": "f010b1e679e6428e381b97eb825ed808dcf592b90946444494178256ce5e069f",
+          "sha1": "39b2a8f0ba5bedad80a8187291732ee43dc0b539",
+          "md5": "cf1702f80ca814c1310ddd80cff05705"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logger-posthog-iosarm64-0.27.0-metadata.jar",
+          "url": "core-logger-posthog-iosarm64-0.27.0-metadata.jar",
+          "size": 56201,
+          "sha512": "96e0d3912f21c8ce460bb1e17871de0efe4aa0a3b544227d8a983e1edf9514b5f0dd3a63b84d6448c4ff3623d8d53c9a0a078c633bc77fb614051ee95818a10d",
+          "sha256": "4c9998d4755f5d70cb99b6719418568ca57b02d53348c44349e99777274eb354",
+          "sha1": "c093e30003d64bf2328b5b03dcd301eff41726b1",
+          "md5": "7a1d79a22464e3077fc8ebc659591c2e"
+        }
+      ]
+    }
+  ]
+}

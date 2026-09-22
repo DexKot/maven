@@ -1,0 +1,240 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-ui",
+    "version": "0.27.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-permission",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ui-0.27.0.aar",
+          "url": "core-ui-0.27.0.aar",
+          "size": 169540,
+          "sha512": "57440a0da5e65d5aed64b64c33f6f38424427493dc15bc6a38f69a958289abb5d180c69fa255efb49a8ae7636caccf1564efa354d8c3c9cd3935423004b66402",
+          "sha256": "d5c0d38852c4db10eff9ad3cdc75a3c50b8427ad83f71308b0f6f144939684c2",
+          "sha1": "c58494135d2523f78e7d356f035e80a2c807aaf0",
+          "md5": "4d77f5513b946e3925c9b143f0e42729"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.10.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.5"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.12.4"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.12.4"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-permission",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-remoteconfig",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ui-0.27.0.aar",
+          "url": "core-ui-0.27.0.aar",
+          "size": 169540,
+          "sha512": "57440a0da5e65d5aed64b64c33f6f38424427493dc15bc6a38f69a958289abb5d180c69fa255efb49a8ae7636caccf1564efa354d8c3c9cd3935423004b66402",
+          "sha256": "d5c0d38852c4db10eff9ad3cdc75a3c50b8427ad83f71308b0f6f144939684c2",
+          "sha1": "c58494135d2523f78e7d356f035e80a2c807aaf0",
+          "md5": "4d77f5513b946e3925c9b143f0e42729"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-ui-0.27.0-sources.jar",
+          "url": "core-ui-0.27.0-sources.jar",
+          "size": 34218,
+          "sha512": "ee58083f80394da2868d28b71abfd1d616d3353a7cdd5eeaf8916f659287e0248d1d4c378622bbb4e13d1dfdef4996be1cf4e87422af6d0f817e1999a97dd4b7",
+          "sha256": "083281c5bb685af691a660ac850c7530ed59bcfbfb3cb95e622ba0ec42a2f3c7",
+          "sha1": "c5cf7fd84d2ac083f9a848e82d2d6eba53508522",
+          "md5": "263b492d096fe70f6087663639fbbf7b"
+        }
+      ]
+    }
+  ]
+}
