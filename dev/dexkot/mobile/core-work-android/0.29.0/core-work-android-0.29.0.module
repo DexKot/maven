@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-work/0.29.0/core-work-0.29.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-work",
+    "version": "0.29.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.29.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-work-release.aar",
+          "url": "core-work-android-0.29.0.aar",
+          "size": 114412,
+          "sha512": "b8328300364ddadc0cdda0eadeace9c2fbcb19592e0e7bff82ec29180a7bbba66e809d891cc66ecdc65eba8ace13e3e4bd5673010561104a8937b074ec05cff3",
+          "sha256": "c0637d88c26ace563058cda62c49298aa49360a70372642d5a43365b2df7fa29",
+          "sha1": "31bcb29bba7b36505b37c9060a0c88da6d6970c2",
+          "md5": "f6c806d69cec34553a25066fc0f4c04f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-permission",
+          "version": {
+            "requires": "0.29.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.11.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.29.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-work-release.aar",
+          "url": "core-work-android-0.29.0.aar",
+          "size": 114412,
+          "sha512": "b8328300364ddadc0cdda0eadeace9c2fbcb19592e0e7bff82ec29180a7bbba66e809d891cc66ecdc65eba8ace13e3e4bd5673010561104a8937b074ec05cff3",
+          "sha256": "c0637d88c26ace563058cda62c49298aa49360a70372642d5a43365b2df7fa29",
+          "sha1": "31bcb29bba7b36505b37c9060a0c88da6d6970c2",
+          "md5": "f6c806d69cec34553a25066fc0f4c04f"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-work-android-0.29.0-sources.jar",
+          "url": "core-work-android-0.29.0-sources.jar",
+          "size": 48712,
+          "sha512": "52e4338bcf555e5b3f14281fa58ea3744373b7013c721f92510012f7cc15037d66cc0288f4adfe8fff52f92f95ba4fbf77dc69fe8071961b84a0742cc8d91b16",
+          "sha256": "8c802ef8c3d72dd1e17445f950800b8bb07ea00adcffcc183ccfa00030bbe88b",
+          "sha1": "59b8a96de11645fde14a193eef556a5bd5bab5cd",
+          "md5": "157b9ce045324e1830461e2ac146553c"
+        }
+      ]
+    }
+  ]
+}

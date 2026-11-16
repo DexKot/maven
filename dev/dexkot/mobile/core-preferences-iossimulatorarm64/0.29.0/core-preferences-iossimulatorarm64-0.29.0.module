@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-preferences/0.29.0/core-preferences-0.29.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-preferences",
+    "version": "0.29.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-preferences-iosSimulatorArm64Main-0.29.0.klib",
+          "url": "core-preferences-iossimulatorarm64-0.29.0.klib",
+          "size": 5039,
+          "sha512": "f88679c65f280131ea27afe0df93d3c432c287a105e7a54c4f01b7061119ef8fef035f23670f902151d25b47b681352e82efcd8bd0a4e9d5062814549c61a60f",
+          "sha256": "75feb6128fb90dcefad852bd179e2c106a3114fc8afe8f7f9f265d27ff7cc19f",
+          "sha1": "535d57ef21bec2944b792426878521f273ec9bc2",
+          "md5": "5ebc441c40986ca2c6e957f12e9ac5c7"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "core-preferences-iossimulatorarm64-0.29.0-sources.jar",
+          "url": "core-preferences-iossimulatorarm64-0.29.0-sources.jar",
+          "size": 3078,
+          "sha512": "8dc16d8afea703bedb25cc3eb7152f853b67c88bb84aa8cfbdc826f635e224e6e652b4a58b6c4aaee20add23c4c01214eb28af2a67c00fe6499cee44bd37c217",
+          "sha256": "9a379ceb90394249da7f24c9801a087b23d550193b18b9341e042b58840c36eb",
+          "sha1": "7bb2dc4a022c988cdd03848805cb4ab79b9d56d7",
+          "md5": "f7222ae5900ea344afadc100efc161e9"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-preferences-iossimulatorarm64-0.29.0-metadata.jar",
+          "url": "core-preferences-iossimulatorarm64-0.29.0-metadata.jar",
+          "size": 2466,
+          "sha512": "66f2c74f1a7e2c506a955d3c5e21e19ad7a21d6e2c4ca68a24979f6510098f4f05bbea53f2a54998de59c1ddf39df12c0e413c30a51612cd33dcaa551102ee29",
+          "sha256": "b0e9cde7f57c9a084091bd9588647c55bf683432210081236079777c31e2dde4",
+          "sha1": "3223a8f76214280585af281733a96a5fc13cd82b",
+          "md5": "68a966571199cc8fc9acef7e4ae0d51a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-preferences/0.29.0/core-preferences-0.29.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-preferences",
+    "version": "0.29.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-preferences-release.aar",
+          "url": "core-preferences-android-0.29.0.aar",
+          "size": 3555,
+          "sha512": "e4710d6016992bc31073ee425c9e337eed9f7067e80b3a0108ccf8a64e06061dfa2e0701d1b60abaa9db88ccd81123845d6a6d2a2812ec5dfb3c1d699ca88d06",
+          "sha256": "91d4d784734139cee0b6732f634331b9c94f4dede302b1bb9b70306c7bbafdb0",
+          "sha1": "e96435c7048ac84c8f2146ea7793abed801cf571",
+          "md5": "db2658eb9aa7b1ec1ae7bb5588f53575"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.russhwolf",
+          "module": "multiplatform-settings",
+          "version": {
+            "requires": "1.3.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-preferences-release.aar",
+          "url": "core-preferences-android-0.29.0.aar",
+          "size": 3555,
+          "sha512": "e4710d6016992bc31073ee425c9e337eed9f7067e80b3a0108ccf8a64e06061dfa2e0701d1b60abaa9db88ccd81123845d6a6d2a2812ec5dfb3c1d699ca88d06",
+          "sha256": "91d4d784734139cee0b6732f634331b9c94f4dede302b1bb9b70306c7bbafdb0",
+          "sha1": "e96435c7048ac84c8f2146ea7793abed801cf571",
+          "md5": "db2658eb9aa7b1ec1ae7bb5588f53575"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-preferences-android-0.29.0-sources.jar",
+          "url": "core-preferences-android-0.29.0-sources.jar",
+          "size": 3167,
+          "sha512": "667311b4bb9b59953df8e9771381b953e453069b75c8a2b2b14fe456a8b1f6fb6911b2033da4f36574b2bad15d808c4b08be92608c5adfb51a7c256087c0da8f",
+          "sha256": "88f8e9699a48e5bbd2b9ea0339046817e453ec6ead800388bb835c18027ffe33",
+          "sha1": "55ef5cc2377140cc8960b059af5392c6a43a5521",
+          "md5": "567233b2fb942a5f5ba0e85bf11e62fc"
+        }
+      ]
+    }
+  ]
+}

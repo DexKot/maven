@@ -1,0 +1,233 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-remoteconfig/0.29.0/core-remoteconfig-0.29.0.module",
+    "group": "dev.dexkot.mobile",
+    "module": "core-remoteconfig",
+    "version": "0.29.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.29.0"
+          }
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.29.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-release.aar",
+          "url": "core-remoteconfig-android-0.29.0.aar",
+          "size": 22231,
+          "sha512": "858513dc84182af7592d4d0e4c3b83b3ed7260e24397703c25e74ff9279525db8111e86ec10c399a2fad2e39ce199a58d144fb6dbb10a12f98060d95b35cea56",
+          "sha256": "96366c47d77b22265b2ce5c31d07e1694a3184821f56ed0a539f8f3e11336914",
+          "sha1": "07ec564dd93948528738b9f894f3d0d0b32abb59",
+          "md5": "5fa52540d890833c86284da5c7c58cfd"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-foundation",
+          "version": {
+            "requires": "0.29.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-logger",
+          "version": {
+            "requires": "0.29.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteconfig-release.aar",
+          "url": "core-remoteconfig-android-0.29.0.aar",
+          "size": 22231,
+          "sha512": "858513dc84182af7592d4d0e4c3b83b3ed7260e24397703c25e74ff9279525db8111e86ec10c399a2fad2e39ce199a58d144fb6dbb10a12f98060d95b35cea56",
+          "sha256": "96366c47d77b22265b2ce5c31d07e1694a3184821f56ed0a539f8f3e11336914",
+          "sha1": "07ec564dd93948528738b9f894f3d0d0b32abb59",
+          "md5": "5fa52540d890833c86284da5c7c58cfd"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-remoteconfig-android-0.29.0-sources.jar",
+          "url": "core-remoteconfig-android-0.29.0-sources.jar",
+          "size": 6158,
+          "sha512": "5cc7a431be51a3ca4890d5426fa79db8156f7ca702e6a96729caf106048d29c88ac2a565fbb77e3ab12e30352d961a1e5919770ab027709254c03795a0999b8b",
+          "sha256": "6b5d4855123e2c062240211f5ce45a94c1894066ffbcab6ce6297aa38da87796",
+          "sha1": "323cea1e0eb45d376631b852c5d04be2c2b6eb43",
+          "md5": "9f2b710637a33ddbd8445c996cb19ee3"
+        }
+      ]
+    }
+  ]
+}

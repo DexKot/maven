@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dexkot.mobile",
+    "module": "core-ui-di-koin",
+    "version": "0.29.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ui-di-koin-0.29.0.aar",
+          "url": "core-ui-di-koin-0.29.0.aar",
+          "size": 4724,
+          "sha512": "acabb5f6d39c2f863adf81c8856ca6f2d0b1df085604443da27a7f9462dc1e4c55f4835459beb5ca863c68c507999a288ad3834fc6dcfe90c474cc885e481d9f",
+          "sha256": "137014e67d33007693441060a77f9898222df38428378b4c2dc3b642e86d61c3",
+          "sha1": "5d3429ed3dd1e5049a40399d7c1d5e873ae22550",
+          "md5": "34a92a3369d39774b8af3f5e111ecd39"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dexkot.mobile",
+          "module": "core-ui",
+          "version": {
+            "requires": "0.29.0"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-ui-di-koin-0.29.0.aar",
+          "url": "core-ui-di-koin-0.29.0.aar",
+          "size": 4724,
+          "sha512": "acabb5f6d39c2f863adf81c8856ca6f2d0b1df085604443da27a7f9462dc1e4c55f4835459beb5ca863c68c507999a288ad3834fc6dcfe90c474cc885e481d9f",
+          "sha256": "137014e67d33007693441060a77f9898222df38428378b4c2dc3b642e86d61c3",
+          "sha1": "5d3429ed3dd1e5049a40399d7c1d5e873ae22550",
+          "md5": "34a92a3369d39774b8af3f5e111ecd39"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-ui-di-koin-0.29.0-sources.jar",
+          "url": "core-ui-di-koin-0.29.0-sources.jar",
+          "size": 1767,
+          "sha512": "de3769dfc967378fe98ec2669ce9b931307ea62d0ff24b07d0fde123f18c65d7b51dbd0b55c2fc968ac8064fcb10fa2a6b62652f4bead25a6f7544ec463f1167",
+          "sha256": "6e2cf24ff06742991135d299050a952b1d85943a32de21364ddc5ac172457319",
+          "sha1": "c427f385ff86bbe9d831b23ef4dab77fb3bda40f",
+          "md5": "48e661734428b430f7f23f8ac7ee7694"
+        }
+      ]
+    }
+  ]
+}
